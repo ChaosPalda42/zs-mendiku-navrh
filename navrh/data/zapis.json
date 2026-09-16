@@ -1,0 +1,124 @@
+{
+  "faq": [
+    {
+      "q": "Jaká je spádovost našeho školního zařízení?",
+      "answer": "<p>Naše základní a mateřská škola „ZŠ a MŠ Mendíků“ má spádovost v oblasti Prahy‑4, konkrétně v městských částech Michle, Krč a Modřany. Děti z těchto oblastí mají přednost při zápisu do 1. třídy.</p>"
+    },
+    {
+      "q": "Lze odložit zápis na pozdější termín?",
+      "answer": "<p>Odklad zápisu je možný pouze v mimořádných situacích (např. dlouhodobá nemoc dítěte). O žádosti o odklad informujte ředitelku školy nejpozději do 31. března 2026.</p>"
+    },
+    {
+      "q": "Co má dítě přinést na první školní den?",
+      "answer": "<p>Dítě by mělo mít:</p><ul><li>školní brašna a sešit</li><li>sada tužek, pastelky a gumu</li><li>oběd nebo svačinu dle jídelního plánu školy</li><li>doplňkový oděv na přezutí (svetr, ponožky)</li></ul>"
+    },
+    {
+      "q": "Existuje přípravná třída pro děti, které ještě nejsou připravené?",
+      "answer": "<p>Ano. Nabízíme předškolní přípravu v rámci MŠ Mendíků (1‑roční program). Přijímáme děti od 5 let a po úspěšném absolvování mohou nastoupit do 1. třídy bez dalšího zápisu.</p>"
+    },
+    {
+      "q": "Jak postupovat, pokud je dítě cizinec a neovládá česky?",
+      "answer": "<p>Pro děti cizince nabízíme jazykovou podporu – intenzivní kurz češtiny během první poloviny školního roku. Přihlaste se na zápis a uveďte jazykové potřeby dítěte, my zajistíme potřebné materiály a učitele.</p>"
+    },
+    {
+      "q": "Jaká jsou kritéria přijetí do 1. třídy?",
+      "answer": "<p>Kritéria zahrnují:</p><ul><li>splnění věkové podmínky (6 let k 30. 9. 2026)</li><li>bydliště v našem spádovém území</li><li>pozitivní vyjádření pedagogického týmu z předškolního období nebo přípravné třídy</li><li>dostupnost volných míst</li></ul>"
+    },
+    {
+      "q": "Kdy budou zveřejněny výsledky zápisu?",
+      "answer": "<p>Výsledky zápisu do 1. třídy vyhlásíme na našem webu a v informačním systému školy dne 15. května 2026.</p>"
+    },
+    {
+      "q": "Kdy se koná den otevřených dveří?",
+      "answer": "<p>Den otevřených dveří pro rodiče dětí, které chtějí nastoupit do 1. třídy, proběhne v pondělí 10. března 2026 od 9:00 do 12:30.</p>"
+    },
+    {
+      "q": "Co by mělo dítě umět před nástupem do 1. třídy?",
+      "answer": "<p>Dítě by mělo mít základní dovednosti:</p><ul><li>samostatně oblékat a svlékat se</li><li>vyjádřit potřebu jídla, pití nebo toalety</li><li>rozpoznat písmena A‑Z a číslice 0‑9</li><li>základní počítání do deseti</li><li>poslouchat jednoduché instrukce</li></ul>"
+    }
+  ],
+  "steps": [
+    {
+      "title": "Vyplnění přihlášky",
+      "text": "Přihlášku můžete stáhnout z našeho webu nebo vyplnit online v sekci „Zápis“. Uveďte všechny požadované údaje o dítěti i rodičích."
+    },
+    {
+      "title": "Odevzdání dokumentů",
+      "text": "Po vyplnění přihlášky doplňte potřebné přílohy (rodný list, potvrzení o bydlišti, lékařské zprávy) a odešlete je e‑mailem nebo osobně na školní úřad."
+    },
+    {
+      "title": "Pohovor s pedagogy",
+      "text": "Po obdržení kompletní přihlášky vás pozveme na krátký rozhovor, kde posoudíme připravenost dítěte a zodpovíme případné otázky."
+    },
+    {
+      "title": "Potvrzení o zápisu",
+      "text": "Po úspěšném průběhu všech kroků vám zašleme oficiální potvrzení o zápisu do 1. třídy a informace o dalším postupu."
+    }
+  ],
+  "skills": [
+    "Rozpoznávání písmen A‑Z",
+    "Čtení jednoduchých slov",
+    "Počítání do deseti",
+    "Základní geometrické tvary (kruh, čtverec)",
+    "Schopnost samostatně oblékat a svlékat se",
+    "Komunikace základních potřeb (hlad, žízeň, potřeba na toaletu)",
+    "Poslouchání a plnění jednoduchých instrukcí",
+    "Základní sociální dovednosti – spolupráce ve skupině",
+    "Orientace v čase (ráno, odpoledne, večer)",
+    "Jednoduché kreslení a malování"
+  ],
+  "documents": [
+    {
+      "name": "Přihláška do 1. třídy",
+      "type": "pdf",
+      "size": "124 KB"
+    },
+    {
+      "name": "Seznam požadovaných dokumentů",
+      "type": "docx",
+      "size": "58 KB"
+    },
+    {
+      "name": "Informace o přípravné třídě",
+      "type": "pdf",
+      "size": "87 KB"
+    },
+    {
+      "name": "Pravidla spádovosti a kritéria přijetí",
+      "type": "pdf",
+      "size": "102 KB"
+    },
+    {
+      "name": "Formulář souhlasu s jazykovou podporou",
+      "type": "docx",
+      "size": "34 KB"
+    },
+    {
+      "name": "Rozvrh a jídelníček pro 1. třídu",
+      "type": "pdf",
+      "size": "76 KB"
+    }
+  ],
+  "msFaq": [
+    {
+      "q": "Jaký je věk dětí, které mohou nastoupit do MŠ?",
+      "answer": "<p>Děti ve věku od 3 do 6 let (včetně) mají možnost zápisu do mateřské školy.</p>"
+    },
+    {
+      "q": "Kdy probíhá přihláška do MŠ?",
+      "answer": "<p>Přihlášky přijímáme od 1. listopadu 2025 do 31. března 2026.</p>"
+    },
+    {
+      "q": "Jaké jsou poplatky za předškolní péči?",
+      "answer": "<p>Poplatek za měsíční péči činí 2 800 Kč, s možností snížení podle sociálního postavení rodiny.</p>"
+    },
+    {
+      "q": "Mohu dítě přihlásit na konkrétní kroužek?",
+      "answer": "<p>Ano, při zápisu můžete vybrat volitelné kroužky (angličtina, výtvarná výchova, sport).</p>"
+    },
+    {
+      "q": "Jaký je postup při odhlášení dítěte z MŠ?",
+      "answer": "<p>Odhlášení provádějte písemně alespoň 30 dnů před plánovaným ukončením péče.</p>"
+    }
+  ]
+}

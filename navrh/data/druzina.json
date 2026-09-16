@@ -1,0 +1,137 @@
+{
+  "hours": {
+    "morning": "6:30–7:40",
+    "afternoon": "11:40–17:30",
+    "pickup": "Děti si vyzvedávejte ve 12:30–13:30 (po obědě) nebo od 15:00. Mezi 13:30 a 15:00 jsou oddělení na vycházce – v tuto dobu prosíme nevyzvedávat."
+  },
+  "payment": "<p>Platba za družinu se provádí měsíčně na účet 123456789/0100 ve výši 2 200 Kč. Převod uveďte pod názvem „Družina – [jméno dítěte]“.</p><p>Přijímáme také platby kartou nebo hotově přímo v administraci školy do 5. dne každého měsíce.</p>",
+  "plan": [
+    {
+      "months": "září – listopad",
+      "activities": [
+        "Výtvarná dílna",
+        "Zahradničení",
+        "Pohybové hry",
+        "Čtení pohádek"
+      ]
+    },
+    {
+      "months": "prosinec – únor",
+      "activities": [
+        "Výroba vánočních ozdob",
+        "Mikulášské čtení",
+        "Lední kraslice",
+        "Sportovní turnaj"
+      ]
+    },
+    {
+      "months": "březen – květen",
+      "activities": [
+        "Jarní výlety",
+        "Ekologické projekty",
+        "Divadelní workshop",
+        "Hudební odpoledne"
+      ]
+    },
+    {
+      "months": "červen – srpen",
+      "activities": [
+        "Letní tábor v areálu školy",
+        "Vodní hry",
+        "Piknikové soutěže",
+        "Kreativní dílny"
+      ]
+    },
+    {
+      "months": "září – listopad (2027)",
+      "activities": [
+        "Zeměpisná hra",
+        "Robotika pro nejmenší",
+        "Malování na obličej",
+        "Cestovatelský koutek"
+      ]
+    }
+  ],
+  "departments": [
+    {
+      "name": "Herní oddělení",
+      "teacher": "Jana Novotná",
+      "classes": "1. A, 2. B, 3. C",
+      "room": "Učebna 101"
+    },
+    {
+      "name": "Výtvarné oddělení",
+      "teacher": "Petr Svoboda",
+      "classes": "4. A, 5. B, 6. C",
+      "room": "Ateliér 202"
+    },
+    {
+      "name": "Sportovní oddělení",
+      "teacher": "Eva Kovářová",
+      "classes": "1. B, 2. A, 3. B",
+      "room": "Tělocvična 303"
+    },
+    {
+      "name": "Hudební oddělení",
+      "teacher": "Martina Dvořáková",
+      "classes": "4. C, 5. A, 6. B",
+      "room": "Hudebna 404"
+    },
+    {
+      "name": "Čtenářské oddělení",
+      "teacher": "Karel Beneš",
+      "classes": "1. C, 2. C, 3. A",
+      "room": "Knihovna 505"
+    },
+    {
+      "name": "Přírodovědné oddělení",
+      "teacher": "Lucie Hrdličková",
+      "classes": "4. B, 5. C, 6. A",
+      "room": "Laboratoř 606"
+    }
+  ],
+  "clubs": [
+    {
+      "name": "Kroužek robotiky",
+      "day": "pondělí",
+      "time": "14:00 – 15:00",
+      "lector": "Ing. Tomáš Veselý"
+    },
+    {
+      "name": "Divadelní dílna",
+      "day": "úterý",
+      "time": "13:30 – 15:00",
+      "lector": "paní Alena Procházková"
+    },
+    {
+      "name": "Sportovní klub",
+      "day": "středa",
+      "time": "14:30 – 16:00",
+      "lector": "trenér Jiří Malý"
+    },
+    {
+      "name": "Výtvarná dílna",
+      "day": "čtvrtek",
+      "time": "13:45 – 15:15",
+      "lector": "paní Hana Křivánková"
+    },
+    {
+      "name": "Čtenářský koutek",
+      "day": "pátek",
+      "time": "14:00 – 15:30",
+      "lector": "pan Petr Landa"
+    },
+    {
+      "name": "Ekologické projekty",
+      "day": "pondělí",
+      "time": "15:30 – 16:30",
+      "lector": "dr. Jana Šimková"
+    }
+  ],
+  "rules": [
+    "Děti vyzvedává jen oprávněná osoba uvedená v seznamu.",
+    "Při vyzvednutí předkládáte občanský průkaz nebo řidičský průkaz.",
+    "Vyzvedávání po 15:00 je možné pouze na základě písemného souhlasu rodičů.",
+    "Pokud se dítě nedostaví včas, informujte učitelku družiny telefonicky."
+  ]
+}

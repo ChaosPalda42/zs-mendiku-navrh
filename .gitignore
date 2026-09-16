@@ -1,0 +1,10 @@
+.DS_Store
+node_modules/
+navrh/out/
+navrh/img-src/
+_nastroje/mflux-venv/
+_nastroje/data-backup-pred-korekturou/
+_nastroje/*.log
+_nastroje/*.txt
+_balicek/ZS-Mendiku-ukazka/
+.claude/

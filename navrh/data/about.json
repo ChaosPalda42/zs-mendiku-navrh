@@ -1,0 +1,202 @@
+{
+  "intro": "<p>Škola Základní a Mateřská škola Mendíků byla založena v roce 1930 a od té doby se stala srdcem čtvrtého pražského obvodu. Naše dvě propojené budovy tvoří útulné prostředí pro přibližně 500 žáků základní školy i 80 dětí mateřské školy.</p><p>Naše vzdělávací programy jsou podpořeny moderními technologiemi – rozšířená výuka matematiky již od šestého ročníku po špičkovou polytechnickou učebnu s 3D tiskárnou. ŠVP nese název „Škola s mosty do života“ a MŠ „Cestička do školy“, což reflektuje naši vizi připravit děti na úspěšný vstup do společnosti.</p>",
+  "values": [
+    {
+      "title": "Propojení",
+      "text": "Vytváříme mosty mezi teorií i praxí.",
+      "icon": "bridge"
+    },
+    {
+      "title": "Péče",
+      "text": "Každý žák je pro nás důležitý.",
+      "icon": "heart"
+    },
+    {
+      "title": "Inovace",
+      "text": "Podporujeme kreativní myšlení v moderní laboratoři.",
+      "icon": "lab"
+    },
+    {
+      "title": "Globální rozměr",
+      "text": "Připravujeme žáky na světové výzvy.",
+      "icon": "globe"
+    }
+  ],
+  "numbers": [
+    {
+      "value": "500+",
+      "label": "žáků ZŠ"
+    },
+    {
+      "value": "80+",
+      "label": "dětí MŠ"
+    },
+    {
+      "value": "12",
+      "label": "tříd s rozšířenou výukou matematiky"
+    },
+    {
+      "value": "3",
+      "label": "polytechnické učebny"
+    }
+  ],
+  "timeline": [
+    {
+      "year": "1930",
+      "title": "Založení školy",
+      "text": "Místní spolek otevřel první učebnu v rodinném domě."
+    },
+    {
+      "year": "1955",
+      "title": "Stavba hlavní budovy",
+      "text": "Postavili jsme novou dvoupatrovou školu s tělocvičnou."
+    },
+    {
+      "year": "1970",
+      "title": "Rozšíření na MŠ",
+      "text": "Do areálu přišla mateřská škola s kapacitou 30 míst."
+    },
+    {
+      "year": "1985",
+      "title": "První počítačová učebna",
+      "text": "Zavedení výuky informatiky na základní škole."
+    },
+    {
+      "year": "1995",
+      "title": "Modernizace učeben",
+      "text": "Byly instalovány interaktivní tabule ve všech třídách."
+    },
+    {
+      "year": "2002",
+      "title": "Zavedení ŠVP",
+      "text": "Program „Škola s mosty do života“ získal podporu města."
+    },
+    {
+      "year": "2010",
+      "title": "Nová polytechnická učebna",
+      "text": "Otevřena laboratoř s 3D tiskárnou a CNC stroji."
+    },
+    {
+      "year": "2015",
+      "title": "Rozšířená výuka matematiky",
+      "text": "Od šestého ročníku se vyučuje rozšířený matematický program."
+    },
+    {
+      "year": "2020",
+      "title": "Digitální platforma",
+      "text": "Zavedení jednotného online systému pro komunikaci s rodiči."
+    },
+    {
+      "year": "2023",
+      "title": "Ekologická iniciativa",
+      "text": "Škola získala certifikát zelené školy za úsporu energie."
+    },
+    {
+      "year": "2025",
+      "title": "Rozšíření kapacity MŠ",
+      "text": "Mateřská škola přijala dalších 20 dětí a vznikla nová herna."
+    },
+    {
+      "year": "2026",
+      "title": "Oslava 96. výročí",
+      "text": "Pořádáme výstavu historie školy a slavnostní koncert pro rodiče i žáky."
+    }
+  ],
+  "languages": [
+    {
+      "grade": "1.–3.",
+      "text": "Základní angličtina – komunikativní přístup, hry a písničky."
+    },
+    {
+      "grade": "4.–5.",
+      "text": "Rozšířená výuka angličtiny s důrazem na čtení a psaní."
+    },
+    {
+      "grade": "6.–7.",
+      "text": "Angličtina + úvod do němčiny – první kroky v druhém jazyce."
+    },
+    {
+      "grade": "8.–9.",
+      "text": "Pokročilá angličtina a volitelný jazyk (němčina nebo španělština)."
+    },
+    {
+      "grade": "MŠ",
+      "text": "Základy komunikace v angličtině skrze pohybové aktivity."
+    },
+    {
+      "grade": "Maturita",
+      "text": "Příprava na mezinárodní zkoušky – Cambridge English a DELF."
+    }
+  ],
+  "stays": [
+    {
+      "title": "Letní tábor \"Mosty k dobrodružství\"",
+      "text": "Týdenní program zaměřený na sport, vědu i kreativitu pro žáky 3.–9. ročníku."
+    },
+    {
+      "title": "Jarní jazykový pobyt",
+      "text": "Intenzivní kurz angličtiny a němčiny v kombinaci s výlety po Praze."
+    },
+    {
+      "title": "Víkendová dílna \"TechLab\"",
+      "text": "Praktické workshopy s 3D tiskem, robotikou a programováním pro všechny věkové kategorie."
+    }
+  ],
+  "schoolYear": {
+    "holidays": [
+      {
+        "name": "Podzimní prázdniny",
+        "term": "30.10.–03.11.2026"
+      },
+      {
+        "name": "Vánoční přestávka",
+        "term": "23.12.2026–02.01.2027"
+      },
+      {
+        "name": "Jarní prázdniny",
+        "term": "14.3.–19.3.2027"
+      },
+      {
+        "name": "Velikonoční volno",
+        "term": "10.4.–13.4.2027"
+      },
+      {
+        "name": "Letní přestávka (konec roku)",
+        "term": "30.6.–31.8.2027"
+      },
+      {
+        "name": "Den učitelů – volno",
+        "term": "28.9.2026"
+      }
+    ],
+    "meetings": [
+      {
+        "quarter": "1. čtvrtletí",
+        "date": "15.10.2026"
+      },
+      {
+        "quarter": "2. čtvrtletí",
+        "date": "12.1.2027"
+      },
+      {
+        "quarter": "3. čtvrtletí",
+        "date": "16.4.2027"
+      },
+      {
+        "quarter": "4. čtvrtletí",
+        "date": "20.6.2027"
+      }
+    ],
+    "openDays": [
+      {
+        "date": "05.09.2026",
+        "note": "Den otevřených dveří – prohlídka školy a setkání s učiteli."
+      },
+      {
+        "date": "18.11.2026",
+        "note": "Představení projektů žáků – veřejná výstava."
+      }
+    ]
+  },
+  "rules": "<p>Omlouvání žáka je povinností rodičů či zákonných zástupců, kteří jsou povinni učiteli oznámit důvod a dobu nepřítomnosti nejpozději do 8:00 hod. prvního dne absence.</p><p>Uvolňování dětí ze školního zařízení může provádět pouze osoba uvedená v zápisu o souhlasu, která předloží platný doklad totožnosti a podepsaný formulář uvolnění.</p><p>Konzultace s učiteli je k dispozici po domluvě – rodiče mohou využít školní telefon nebo e‑mail (prijmeni.jmeno@skola-ukazka.cz) a dohodnout si schůzku během vyučovacích hodin či po škole.</p>"
+}

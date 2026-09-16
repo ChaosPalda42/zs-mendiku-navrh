@@ -1,0 +1,21 @@
+{
+  "alerts": [
+    {
+      "title": "Ředitelka na studijní dovolené",
+      "text": "Paní ředitelka Nováková bude mimo školu od 20. 9. do 27. 9.",
+      "link": "Více informací",
+      "level": "info"
+    },
+    {
+      "title": "Změna provozu školní družiny v říjnu",
+      "text": "Družina bude otevřena od 15:00 místo obvyklých 16:00 po celý říjen.",
+      "link": "Rozpis družiny",
+      "level": "warning"
+    }
+  ],
+  "tips": [
+    "Připomeňte dětem, aby si zkontrolovaly školní rozvrh na portálu.",
+    "Nezapomeňte vyzvednout letáky o exkurzi do ZOO v pondělí.",
+    "Děti mají od 5. 10. možnost přihlásit se do kroužku šití."
+  ]
+}

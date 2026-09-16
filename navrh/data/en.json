@@ -1,0 +1,48 @@
+{
+  "nav": [
+    "Home",
+    "News",
+    "Calendar",
+    "Classes",
+    "After-school club",
+    "Canteen",
+    "Enrolment",
+    "Contact"
+  ],
+  "hero": {
+    "title": "Welcome to Mendíků Primary and Kindergarten",
+    "subtitle": "A nurturing environment where curiosity thrives and every child shines."
+  },
+  "sections": {
+    "news": "Latest News",
+    "events": "Upcoming Events",
+    "quickLinks": "Quick Links",
+    "classes": "Our Classes",
+    "kindergarten": "Kindergarten Program",
+    "contact": "Get in Touch"
+  },
+  "news": [
+    {
+      "title": "Opening Ceremony of the New Playground",
+      "date": "2026-09-20",
+      "excerpt": "Students and parents celebrated the inauguration of our modern playground with games, music, and a ribbon‑cutting ceremony."
+    },
+    {
+      "title": "Science Fair 2026 – Student Projects Shine",
+      "date": "2026-10-05",
+      "excerpt": "Our pupils presented innovative experiments ranging from renewable energy models to robotics, impressing judges and visitors alike."
+    },
+    {
+      "title": "Cultural Day: Exploring Czech Traditions",
+      "date": "2026-11-12",
+      "excerpt": "A vibrant day of folk dances, traditional crafts, and tasting local foods, fostering cultural appreciation among our international community."
+    },
+    {
+      "title": "After‑School Club Wins Regional Chess Tournament",
+      "date": "2027-01-18",
+      "excerpt": "The club’s junior team secured first place, showcasing strategic thinking and teamwork cultivated at Mendíků."
+    }
+  ],
+  "notice": "International families are welcome – we offer Czech as a Second Language support for all new students.",
+  "footer": "© 2026‑2027 ZŠ a MŠ Mendíků, Prague 4 – nurturing future leaders together."
+}

@@ -1,0 +1,93 @@
+ZŠ A MŠ MENDÍKŮ — návrh nového webu (ukázka)
+=============================================
+
+JAK TO OTEVŘÍT
+--------------
+Dvojklik na soubor:   OTEVRIT-UKAZKU.html
+
+Otevře se v prohlížeči. Funguje na Windows i na Macu,
+NEPOTŘEBUJE INTERNET a nemusíte nic instalovat.
+
+
+CO JE V UKÁZCE
+--------------
+Web pro rodiče (modrá = základní škola)
+  Úvod              vše podstatné na jedné obrazovce: kritické upozornění,
+                    rychlé odkazy, důležité zprávy, aktuality, nejbližší akce,
+                    dnešní jídelníček, přehled tříd
+  Aktuality         kategorie, filtr „jen důležité“, každá zpráva má vlastní
+                    stránku (dá se poslat odkazem), přílohy, fotogalerie
+  Kalendář          měsíční kalendář + seznam celého roku, filtr podle typu,
+                    tlačítko „přidat do mého kalendáře“
+  Třídní stránky    přehled tříd → stránka třídy: zprávy učitele, termíny,
+                    fotogalerie a soubory JEN pro rodiče (heslo: rodice)
+  Jídelna           jídelníček po týdnech přímo na webu (žádné soubory),
+                    dnešní menu, alergeny, ceník, odhlašování
+  Družina           provoz, platby, oddělení, kroužky družiny, plán, zprávy
+  Kroužky           strukturovaná nabídka s filtrem, cenou a volnými místy
+  Zápis do 1. třídy termíny, postup, časté otázky, dokumenty, online přihláška
+  O škole           historie, hodnoty, jazyky, pobyty, Ekoškola, GDPR
+  Lidé ve škole     kontakty s filtrem podle skupin
+  Úřední deska      dokumenty s datem vyvěšení/sejmutí, povinně
+                    zveřejňované informace (zákon 106/1999 Sb.)
+  Projekty          přehled + detail projektu
+  Fotogalerie       přehled po školních rocích, galerie s prohlížečem fotek
+  Kontakt           formulář, kontakty, mapa
+
+Mateřská škola (zelená) – přepínač vlevo nahoře
+  vlastní úvod, aktuality, oddělení, jídelníček, kroužky, zápis do MŠ
+
+English (EN vpravo nahoře) – ukázka anglické úvodní stránky
+
+Administrace (odkaz v patičce „Administrace“ nebo web/admin-login.html)
+  přihlášení Microsoft účtem → přehled, aktuality + editor, kalendář,
+  fotogalerie (hromadný upload), třídy a hesla pro rodiče, jídelníček,
+  kroužky a přihlášky, úřední deska, uživatelé a role (matice oprávnění),
+  nastavení. Klikáním v levém menu se přepínají obrazovky.
+
+Dále: vyhledávání (lupa nebo Ctrl/Cmd+K), přepínač světlý/tmavý režim,
+stránka 404, animace při rolování.
+
+
+NA CO UPOZORNIT
+---------------
+• VŠECHNA DATA JSOU SMYŠLENÁ – jména, telefony, e-maily, čísla účtů,
+  ceny, termíny i texty aktualit. Fotografie jsou vygenerované (nejde
+  o skutečné děti ani budovu). Do ostré verze se překlopí skutečný obsah
+  ze současného webu.
+
+• Formuláře, tlačítka „Přihlásit“, „Stáhnout“ a odkazy do Bakalářů
+  v ukázce nic neodešlou – jen ukážou, co by se stalo (bublina dole).
+
+• Administrace je návrh rozhraní, nic neukládá. Ukazuje, co uvidí
+  učitel, jídelna, družina nebo vedení po přihlášení.
+
+• Přechody mezi stránkami jsou v ukázce obyčejné. Na ostrém webu budou
+  plynulé – tady by to bez serveru nefungovalo.
+
+• Rozvrhy a suplování zůstávají v Bakalářích (odkaz). Do budoucna lze
+  zobrazit vybrané informace přímo na webu – k diskusi.
+
+• Jídelníček: ukázka počítá s tím, že ho vedoucí jídelny zadává přímo
+  v administraci. Možné je i napojení na jidelna.cz.
+
+
+CO JE VE SLOŽCE „dokumenty"
+---------------------------
+analyza-soucasneho-webu.html   co dnes na webu je, co chybí a co
+                               nový web musí zachovat (dvojklik)
+analyza-soucasneho-webu.md     totéž jako text
+
+
+CO JE VE SLOŽCE „web"
+---------------------
+Jednotlivé stránky ukázky. Otevírá se to souborem OTEVRIT-UKAZKU.html
+o úroveň výš, dovnitř chodit nemusíte.
+
+
+DALŠÍ KROK
+----------
+Sejdeme se, projdeme ukázku a zapíšeme, co se líbí a co změnit
+(barvy, pořadí bloků, názvy sekcí, co má být na úvodní stránce).
+Pak vznikne ostrý web s administrací a přihlášením přes Microsoft,
+a přemigruje se veškerý obsah ze současného webu.

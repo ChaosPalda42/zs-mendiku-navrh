@@ -1,0 +1,104 @@
+{
+  "intro": "<p>V naší školní jídelně můžete každý den vybírat z čerstvě připravených pokrmů, které jsou přizpůsobeny výživovým potřebám dětí od 3 do 15 let. Objednávky se podávají v automatickém kiosku nebo u obsluhy a následně si jídlo vyzvednete na výdeji během přestávek.</p><p>Výběr jídel je jednoduchý – stačí si zvolit položku v aplikaci „Mendíků Jídelna“ nebo přímo na místě a po zaplacení obdržíte čip, který vám umožní rychlé odbavení při výdeji. Přijďte ochutnat naše zdravé a chutné menu!</p>",
+  "hours": [
+    {
+      "who": "Cizí strávníci a obědy do jídlonosičů",
+      "time": "11:15–11:45"
+    },
+    {
+      "who": "Žáci 1. stupně",
+      "time": "11:45–13:00"
+    },
+    {
+      "who": "Žáci 2. stupně a zaměstnanci",
+      "time": "12:40–14:00"
+    }
+  ],
+  "prices": [
+    {
+      "age": "3–6 let (MŠ)",
+      "perMeal": 39,
+      "perMonth": 780
+    },
+    {
+      "age": "7–10 let",
+      "perMeal": 49,
+      "perMonth": 980
+    },
+    {
+      "age": "11–14 let",
+      "perMeal": 52,
+      "perMonth": 1040
+    },
+    {
+      "age": "15 a více let",
+      "perMeal": 56,
+      "perMonth": 1120
+    },
+    {
+      "age": "cizí strávníci (nedotovaná cena)",
+      "perMeal": 125,
+      "perMonth": 0
+    }
+  ],
+  "payment": "<p>Platby provádějte na účet č. 123456789/0100 u ČSOB do 25. dne každého měsíce. V případě dotazů nás kontaktujte na e‑mail: finance.mendiku@skola-ukazka.cz nebo telefonicky na 274 123 456.</p>",
+  "cancel": "<p>Pokud chcete své dítě odhlásit z jídelny, stačí vyplnit formulář „Odhlášení ze stravování“ a doručit jej do kanceláře ředitelky nejpozději do konce měsíce před změnou.</p><p>Pro okamžité odhlášení během školního roku kontaktujte koordinátora stravy na e‑mail: strava.kovarik@skola-ukazka.cz nebo telefon 277 987 654. Odhlášení bude účinné od následujícího pracovního dne.</p><p>V případě, že se rozhodnete znovu přihlásit, můžete tak učinit prostřednictvím našeho on‑line formuláře do 10. dne měsíce, kdy chcete stravování obnovit.</p>",
+  "allergens": [
+    {
+      "code": "A",
+      "name": "Obiloviny obsahující lepek"
+    },
+    {
+      "code": "B",
+      "name": "Krustičky (korýši)"
+    },
+    {
+      "code": "C",
+      "name": "Vejce"
+    },
+    {
+      "code": "D",
+      "name": "Ryby"
+    },
+    {
+      "code": "E",
+      "name": "Arašidy"
+    },
+    {
+      "code": "F",
+      "name": "Sója"
+    },
+    {
+      "code": "G",
+      "name": "Mléko a mléčné výrobky (laktóza)"
+    },
+    {
+      "code": "H",
+      "name": "Skořápkové plody (např. vlašské ořechy, mandle)"
+    },
+    {
+      "code": "I",
+      "name": "Celer"
+    },
+    {
+      "code": "J",
+      "name": "Hořčice"
+    },
+    {
+      "code": "K",
+      "name": "Sezamová semínka"
+    },
+    {
+      "code": "L",
+      "name": "Oxid siřičitý a sulfity"
+    },
+    {
+      "code": "M",
+      "name": "Vlčí bob (luštěniny)"
+    },
+    {
+      "code": "N",
+      "name": "Měkkýši"
+    }
+  ]
+}

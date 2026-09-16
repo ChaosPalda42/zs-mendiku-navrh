@@ -1,0 +1,75 @@
+{
+  "intro": "<p>V naší mateřské škole Mendíků se děti každé ráno probouzejí do světa plného objevování a radosti. V útulném prostředí s moderním vybavením podporujeme první kroky k samostatnosti, rozvíjíme kreativitu i sociální dovednosti.</p><p>Naše tři oddělení – předškolní skupina, jazyková sekce a výtvarná dílna – jsou propojené zahradou, kde se děti učí poznávat přírodu. V souladu s&nbsp;ŠVP „Cestička do školy“ připravujeme každého žáka na úspěšný vstup do základní školy.</p>",
+  "daySchedule": [
+    {
+      "time": "07:30–08:00",
+      "activity": "Příchod a volná hra v herně"
+    },
+    {
+      "time": "08:00–08:15",
+      "activity": "Ranní kruh – pozdravy, písničky, plán dne"
+    },
+    {
+      "time": "08:15–09:00",
+      "activity": "Tematické aktivity podle ŠVP „Cestička do školy“"
+    },
+    {
+      "time": "09:00–09:30",
+      "activity": "Snídaně a hygiena"
+    },
+    {
+      "time": "09:30–10:15",
+      "activity": "Výtvarná dílna nebo jazyková hra"
+    },
+    {
+      "time": "10:15–11:00",
+      "activity": "Pohybová aktivita v zahradě – hry, běhání, procházky"
+    },
+    {
+      "time": "11:00–11:30",
+      "activity": "Oběd (stravování) a odpočinek"
+    },
+    {
+      "time": "11:30–12:15",
+      "activity": "Volná hra, čtení pohádek, rozloučení"
+    }
+  ],
+  "needs": [
+    "Převléknutelný výstroj (sukně/kalhoty, tričko, mikina)",
+    "Obuv vhodná do interiéru i venku",
+    "Sada na osobní hygienu (kartáček, pasta, mýdlo)",
+    "Dětský batoh s oblíbenou dekou a polštářkem",
+    "Lahvička nebo hrnek na pití (bez plastových víček)",
+    "Zimní bundu, čepici a rukavice pro venkovní aktivity",
+    "Ochranný krém na slunce a repelent v letním období",
+    "Domácí výtvarné potřeby (tužky, pastelky) pro individuální projekty"
+  ],
+  "fees": "<p>Účastnické poplatky za školní rok 2026/2027 činí 12 500 Kč. Zahrnují vyučovací materiály, výlety a využití zahrady. Pro rodiny s více dětmi v MŠ nabízíme slevu 10 % na druhé dítě.</p><p>Stravování je zajištěno školní jídelnou za cenu 2 300 Kč ročně. Strava splňuje nutriční standardy a zahrnuje pestrý výběr teplých i studených pokrmů. Platby lze provádět převodem na účet 123456789/0100 nebo hotově v kanceláři školy.</p>",
+  "events": [
+    {
+      "title": "Jarní slavnost květin",
+      "when": "15. 4. 2026",
+      "text": "Společně s rodiči a pedagogy připravíme barevnou výstavu květin, hudební vystoupení dětí a ochutnávku jarních pochoutek."
+    },
+    {
+      "title": "Den mateřské školy – otevřeno pro veřejnost",
+      "when": "10. 5. 2026",
+      "text": "Pozvěte si kamarády, ukážeme naše učebny, zahradu a připravíme workshopy zaměřené na kreativní tvorbu."
+    },
+    {
+      "title": "Letní výlet do parku Stromovka",
+      "when": "20. 6. 2026",
+      "text": "Celodenní odpoledne plné her, pikniku a poznávání přírody pod dohledem učitelů."
+    },
+    {
+      "title": "Podzimní čtenářský maraton",
+      "when": "12. 10. 2026",
+      "text": "Děti předčtou oblíbené pohádky, soutěží o nejzajímavější výklad a získají malé odměny."
+    },
+    {
+      "title": "Vánoční besídka „Cestička k Vánocům“",
+      "when": "22. 12. 2026",
+      "text": "Společný program s koledami, divadelními scénkami a vánočním trhem vytvořeným dětmi."
+    }
+  ]
+}

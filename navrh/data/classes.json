@@ -1,0 +1,268 @@
+{
+  "items": [
+    {
+      "name": "1.A",
+      "level": "1",
+      "teacher": "Bc. Jana Novotná",
+      "email": "novotna.jana@skola-ukazka.cz",
+      "phone": "222 123 456",
+      "room": "2. patro, učebna 201",
+      "pupils": 24,
+      "motto": "Společně objevujeme svět",
+      "assistant": ""
+    },
+    {
+      "name": "1.B",
+      "level": "1",
+      "teacher": "Mgr. Petr Svoboda",
+      "email": "svoboda.petr@skola-ukazka.cz",
+      "phone": "222 234 567",
+      "room": "2. patro, učebna 202",
+      "pupils": 22,
+      "motto": "Každý den je dobrodružství",
+      "assistant": ""
+    },
+    {
+      "name": "1.C",
+      "level": "1",
+      "teacher": "Bc. Martina Dvořáková",
+      "email": "dvorakova.martina@skola-ukazka.cz",
+      "phone": "222 345 678",
+      "room": "2. patro, učebna 203",
+      "pupils": 25,
+      "motto": "Hravě k úspěchu",
+      "assistant": ""
+    },
+    {
+      "name": "2.A",
+      "level": "1",
+      "teacher": "Mgr. Lukáš Horák",
+      "email": "horak.lukas@skola-ukazka.cz",
+      "phone": "222 456 789",
+      "room": "3. patro, učebna 301",
+      "pupils": 23,
+      "motto": "Rosteme s radostí",
+      "assistant": ""
+    },
+    {
+      "name": "2.B",
+      "level": "1",
+      "teacher": "Bc. Eva Králová",
+      "email": "kralova.eva@skola-ukazka.cz",
+      "phone": "222 567 890",
+      "room": "3. patro, učebna 302",
+      "pupils": 21,
+      "motto": "Společně silnější",
+      "assistant": ""
+    },
+    {
+      "name": "3.A",
+      "level": "1",
+      "teacher": "Mgr. Tomáš Němec",
+      "email": "nemec.tomas@skola-ukazka.cz",
+      "phone": "222 678 901",
+      "room": "3. patro, učebna 303",
+      "pupils": 26,
+      "motto": "Zvídavost nás vede",
+      "assistant": ""
+    },
+    {
+      "name": "3.B",
+      "level": "1",
+      "teacher": "Bc. Kateřina Šimková",
+      "email": "simkova.katerina@skola-ukazka.cz",
+      "phone": "222 789 012",
+      "room": "4. patro, učebna 401",
+      "pupils": 24,
+      "motto": "Učíme se hrou",
+      "assistant": ""
+    },
+    {
+      "name": "4.A",
+      "level": "1",
+      "teacher": "Mgr. Jan Procházka",
+      "email": "prochazka.jan@skola-ukazka.cz",
+      "phone": "222 890 123",
+      "room": "4. patro, učebna 402",
+      "pupils": 27,
+      "motto": "Cesta k poznání",
+      "assistant": ""
+    },
+    {
+      "name": "4.B",
+      "level": "1",
+      "teacher": "Bc. Alena Veselá",
+      "email": "vesela.alena@skola-ukazka.cz",
+      "phone": "222 901 234",
+      "room": "4. patro, učebna 403",
+      "pupils": 22,
+      "motto": "Kde je tým, tam je úspěch",
+      "assistant": ""
+    },
+    {
+      "name": "4.C",
+      "level": "1",
+      "teacher": "Mgr. David Kovář",
+      "email": "kovar.david@skola-ukazka.cz",
+      "phone": "222 012 345",
+      "room": "5. patro, učebna 501",
+      "pupils": 25,
+      "motto": "Věda je zábava",
+      "assistant": ""
+    },
+    {
+      "name": "5.A",
+      "level": "1",
+      "teacher": "Bc. Petra Němcová",
+      "email": "nemcova.petra@skola-ukazka.cz",
+      "phone": "222 123 456",
+      "room": "5. patro, učebna 502",
+      "pupils": 23,
+      "motto": "Myšlenky v pohybu",
+      "assistant": ""
+    },
+    {
+      "name": "5.B",
+      "level": "1",
+      "teacher": "Mgr. Ondřej Bartoš",
+      "email": "bartos.ondrej@skola-ukazka.cz",
+      "phone": "222 234 567",
+      "room": "5. patro, učebna 503",
+      "pupils": 24,
+      "motto": "Společně dál",
+      "assistant": ""
+    },
+    {
+      "name": "6.A",
+      "level": "2",
+      "teacher": "Bc. Lucie Marek",
+      "email": "marek.lucie@skola-ukazka.cz",
+      "phone": "222 345 678",
+      "room": "6. patro, učebna 601",
+      "pupils": 26,
+      "motto": "Budoucnost začíná dnes",
+      "assistant": ""
+    },
+    {
+      "name": "6.B",
+      "level": "2",
+      "teacher": "Mgr. Martin Havel",
+      "email": "havel.martin@skola-ukazka.cz",
+      "phone": "222 456 789",
+      "room": "6. patro, učebna 602",
+      "pupils": 22,
+      "motto": "Vzdělání s úsměvem",
+      "assistant": ""
+    },
+    {
+      "name": "7.A",
+      "level": "2",
+      "teacher": "Bc. Jana Křížová",
+      "email": "krizova.jana@skola-ukazka.cz",
+      "phone": "222 567 890",
+      "room": "6. patro, učebna 603",
+      "pupils": 25,
+      "motto": "Krok za krokem vpřed",
+      "assistant": ""
+    },
+    {
+      "name": "7.B",
+      "level": "2",
+      "teacher": "Mgr. Petr Vondrák",
+      "email": "vondra.petr@skola-ukazka.cz",
+      "phone": "222 678 901",
+      "room": "7. patro, učebna 701",
+      "pupils": 23,
+      "motto": "Spolu k hvězdám",
+      "assistant": ""
+    },
+    {
+      "name": "8.A",
+      "level": "2",
+      "teacher": "Bc. Veronika Doležalová",
+      "email": "dolezalova.veronika@skola-ukazka.cz",
+      "phone": "222 789 012",
+      "room": "7. patro, učebna 702",
+      "pupils": 24,
+      "motto": "Učíme se radostně",
+      "assistant": ""
+    },
+    {
+      "name": "8.B",
+      "level": "2",
+      "teacher": "Mgr. Jakub Šťastný",
+      "email": "stasty.jakub@skola-ukazka.cz",
+      "phone": "222 890 123",
+      "room": "7. patro, učebna 703",
+      "pupils": 21,
+      "motto": "Všechno je možné",
+      "assistant": ""
+    },
+    {
+      "name": "9.A",
+      "level": "2",
+      "teacher": "Bc. Martina Hrdličková",
+      "email": "hrdlickova.martina@skola-ukazka.cz",
+      "phone": "222 901 234",
+      "room": "8. patro, učebna 801",
+      "pupils": 27,
+      "motto": "Srdce i mysl v akci",
+      "assistant": ""
+    },
+    {
+      "name": "9.B",
+      "level": "2",
+      "teacher": "Mgr. Roman Černý",
+      "email": "cerny.roman@skola-ukazka.cz",
+      "phone": "222 012 345",
+      "room": "8. patro, učebna 802",
+      "pupils": 23,
+      "motto": "Každý den nová výzva",
+      "assistant": ""
+    },
+    {
+      "name": "Přípravná třída – A",
+      "level": "pripravna",
+      "teacher": "Bc. Eva Látalová",
+      "email": "latlova.eva@skola-ukazka.cz",
+      "phone": "722 123 456",
+      "room": "1. patro, učebna 101",
+      "pupils": 22,
+      "motto": "První kroky s úsměvem",
+      "assistant": ""
+    },
+    {
+      "name": "Koťátka",
+      "level": "ms",
+      "teacher": "Mgr. Alžběta Svobodová",
+      "email": "svobodova.alzbeta@skola-ukazka.cz",
+      "phone": "722 234 567",
+      "room": "1. patro, učebna 102",
+      "pupils": 23,
+      "motto": "Hravě k velkým věcem",
+      "assistant": ""
+    },
+    {
+      "name": "Berušky",
+      "level": "ms",
+      "teacher": "Bc. Tomáš Kroupa",
+      "email": "kroupa.tomas@skola-ukazka.cz",
+      "phone": "722 345 678",
+      "room": "1. patro, učebna 103",
+      "pupils": 24,
+      "motto": "Objevujeme svět kolem nás",
+      "assistant": ""
+    },
+    {
+      "name": "Sluníčka",
+      "level": "ms",
+      "teacher": "Mgr. Petra Horváthová",
+      "email": "horvathova.petra@skola-ukazka.cz",
+      "phone": "722 456 789",
+      "room": "1. patro, učebna 104",
+      "pupils": 21,
+      "motto": "Světlo a radost každý den",
+      "assistant": ""
+    }
+  ]
+}

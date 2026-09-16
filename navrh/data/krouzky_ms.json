@@ -1,0 +1,88 @@
+{
+  "items": [
+    {
+      "name": "Angličtina hrou",
+      "day": "pondělí",
+      "time": "15:30–16:15",
+      "ages": "4–6 let",
+      "lector": "paní Eva Novotná",
+      "price": 2400,
+      "capacity": 12,
+      "free": 5,
+      "place": "učebna A1",
+      "description": "Zábavné hry a písničky, které děti motivují k prvnímu slovníku v angličtině."
+    },
+    {
+      "name": "Tanečky",
+      "day": "úterý",
+      "time": "14:00–15:00",
+      "ages": "3–6 let",
+      "lector": "paní Jana Kovářová",
+      "price": 2100,
+      "capacity": 10,
+      "free": 2,
+      "place": "taneční sál",
+      "description": "Pohybové hry a jednoduché choreografie rozvíjejí rytmus i koordinaci."
+    },
+    {
+      "name": "Keramika",
+      "day": "středa",
+      "time": "16:30–17:15",
+      "ages": "4–6 let",
+      "lector": "paní Martina Bartošová",
+      "price": 2600,
+      "capacity": 8,
+      "free": 3,
+      "place": "kreativní dílna",
+      "description": "Děti tvoří vlastní hravé sošky a misky z hlínky pod dohledem zkušeného lektora."
+    },
+    {
+      "name": "Předškolácká příprava",
+      "day": "čtvrtek",
+      "time": "15:00–16:30",
+      "ages": "5–6 let",
+      "lector": "paní Lucie Svobodová",
+      "price": 3000,
+      "capacity": 14,
+      "free": 7,
+      "place": "učebna B2",
+      "description": "Herní formou se děti seznamují s prvními dovednostmi potřebnými pro základní školu."
+    },
+    {
+      "name": "Malý sportovec",
+      "day": "pátek",
+      "time": "14:30–15:20",
+      "ages": "3–6 let",
+      "lector": "pan Petr Dvořák",
+      "price": 2200,
+      "capacity": 12,
+      "free": 4,
+      "place": "tělocvična",
+      "description": "Základní pohybové aktivity, překážkové dráhy a hry podporují fyzický rozvoj."
+    },
+    {
+      "name": "Flétnička",
+      "day": "pondělí",
+      "time": "16:45–17:30",
+      "ages": "5–6 let",
+      "lector": "paní Alena Křížová",
+      "price": 2500,
+      "capacity": 6,
+      "free": 1,
+      "place": "hudební místnost",
+      "description": "První kroky na flétnu v hravém prostředí rozvíjejí sluch a rytmus."
+    },
+    {
+      "name": "Logopedické chvilky",
+      "day": "úterý",
+      "time": "10:00–10 45",
+      "ages": "3–5 let",
+      "lector": "paní Veronika Havelová",
+      "price": 1800,
+      "capacity": 8,
+      "free": 6,
+      "place": "logopedická místnost",
+      "description": "Krátké interaktivní aktivity podporují správnou výslovnost a jazykový rozvoj."
+    }
+  ]
+}

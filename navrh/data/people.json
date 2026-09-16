@@ -1,0 +1,260 @@
+{
+  "items": [
+    {
+      "name": "Anna Novotná",
+      "role": "ředitelka",
+      "group": "Vedení školy",
+      "email": "novotna.anna@skola-ukazka.cz",
+      "phone": "212 345 678",
+      "note": ""
+    },
+    {
+      "name": "Petra Svobodová",
+      "role": "statutární zástupkyně",
+      "group": "Vedení školy",
+      "email": "svobodova.petra@skola-ukazka.cz",
+      "phone": "213 456 789",
+      "note": ""
+    },
+    {
+      "name": "Martin Dvořák",
+      "role": "zástupce pro 1. stupeň",
+      "group": "Vedení školy",
+      "email": "dvorak.martin@skola-ukazka.cz",
+      "phone": "214 567 890",
+      "note": ""
+    },
+    {
+      "name": "Jana Kovářová",
+      "role": "zástupce pro 2. stupeň",
+      "group": "Vedení školy",
+      "email": "kovarova.jana@skola-ukazka.cz",
+      "phone": "215 678 901",
+      "note": ""
+    },
+    {
+      "name": "Lucie Horáková",
+      "role": "zástupkyně pro MŠ",
+      "group": "Vedení školy",
+      "email": "horakova.lucie@skola-ukazka.cz",
+      "phone": "216 789 012",
+      "note": ""
+    },
+    {
+      "name": "Eva Bartošová",
+      "role": "výchovná poradkyně",
+      "group": "Školní poradenské pracoviště",
+      "email": "",
+      "phone": "",
+      "note": "konzultační hodiny pondělí 10:00–11:30"
+    },
+    {
+      "name": "Tomáš Procházka",
+      "role": "metodik prevence",
+      "group": "Školní poradenské pracoviště",
+      "email": "",
+      "phone": "",
+      "note": ""
+    },
+    {
+      "name": "Klára Němcová",
+      "role": "školní psycholog",
+      "group": "Školní poradenské pracoviště",
+      "email": "",
+      "phone": "",
+      "note": "konzultační hodiny ve středu 13:00 – 15:00"
+    },
+    {
+      "name": "Radek Šimek",
+      "role": "speciální pedagog",
+      "group": "Školní poradenské pracoviště",
+      "email": "",
+      "phone": "",
+      "note": ""
+    },
+    {
+      "name": "Alena Křivá",
+      "role": "sociální pedagog",
+      "group": "Školní poradenské pracoviště",
+      "email": "",
+      "phone": "",
+      "note": ""
+    },
+    {
+      "name": "Miroslav Černý",
+      "role": "hospodářka",
+      "group": "Provoz a administrativa",
+      "email": "cerny.miroslav@skola-ukazka.cz",
+      "phone": "217 890 123",
+      "note": ""
+    },
+    {
+      "name": "Petra Křížová",
+      "role": "vedoucí školní jídelny",
+      "group": "Provoz a administrativa",
+      "email": "krizova.petra@skola-ukazka.cz",
+      "phone": "218 901 234",
+      "note": ""
+    },
+    {
+      "name": "Jan Havel",
+      "role": "školník",
+      "group": "Provoz a administrativa",
+      "email": "havel.jan@skola-ukazka.cz",
+      "phone": "219 012 345",
+      "note": ""
+    },
+    {
+      "name": "Veronika Látalová",
+      "role": "vedoucí vychovatelka ŠD",
+      "group": "Provoz a administrativa",
+      "email": "latalova.veronika@skola-ukazka.cz",
+      "phone": "220 123 456",
+      "note": ""
+    },
+    {
+      "name": "Petr Doležal",
+      "role": "koordinátor ICT",
+      "group": "Provoz a administrativa",
+      "email": "dolezal.petr@skola-ukazka.cz",
+      "phone": "221 234 567",
+      "note": ""
+    },
+    {
+      "name": "Karel Vondrák",
+      "role": "učitel (aprobace)",
+      "group": "Netřídní učitelé",
+      "email": "",
+      "phone": "",
+      "note": "aprobace"
+    },
+    {
+      "name": "Michaela Šťastná",
+      "role": "učitelka (aprobace)",
+      "group": "Netřídní učitelé",
+      "email": "",
+      "phone": "",
+      "note": "aprobace"
+    },
+    {
+      "name": "Ondřej Bílý",
+      "role": "učitel (aprobace)",
+      "group": "Netřídní učitelé",
+      "email": "",
+      "phone": "",
+      "note": "aprobace"
+    },
+    {
+      "name": "Jitka Malá",
+      "role": "učitelka (aprobace)",
+      "group": "Netřídní učitelé",
+      "email": "",
+      "phone": "",
+      "note": "aprobace"
+    },
+    {
+      "name": "Filip Růžička",
+      "role": "učitel (aprobace)",
+      "group": "Netřídní učitelé",
+      "email": "",
+      "phone": "",
+      "note": "aprobace"
+    },
+    {
+      "name": "Alena Vondrová",
+      "role": "učitelka (aprobace)",
+      "group": "Netřídní učitelé",
+      "email": "",
+      "phone": "",
+      "note": "aprobace"
+    },
+    {
+      "name": "Zuzana Dvořáková",
+      "role": "vychovatelka ŠD",
+      "group": "Vychovatelky ŠD",
+      "email": "",
+      "phone": "",
+      "note": ""
+    },
+    {
+      "name": "Markéta Křížková",
+      "role": "vychovatelka ŠD",
+      "group": "Vychovatelky ŠD",
+      "email": "",
+      "phone": "",
+      "note": ""
+    },
+    {
+      "name": "Lenka Pospíšilová",
+      "role": "vychovatelka ŠD",
+      "group": "Vychovatelky ŠD",
+      "email": "",
+      "phone": "",
+      "note": ""
+    },
+    {
+      "name": "Hana Vondráčková",
+      "role": "vychovatelka ŠD",
+      "group": "Vychovatelky ŠD",
+      "email": "",
+      "phone": "",
+      "note": ""
+    },
+    {
+      "name": "Eva Horváthová",
+      "role": "vychovatelka ŠD",
+      "group": "Vychovatelky ŠD",
+      "email": "",
+      "phone": "",
+      "note": ""
+    },
+    {
+      "name": "Kristýna Lavičková",
+      "role": "učitelka MŠ",
+      "group": "Učitelky MŠ",
+      "email": "",
+      "phone": "",
+      "note": ""
+    },
+    {
+      "name": "Barbora Šimáková",
+      "role": "učitelka MŠ",
+      "group": "Učitelky MŠ",
+      "email": "",
+      "phone": "",
+      "note": ""
+    },
+    {
+      "name": "Dagmar Vráblíková",
+      "role": "učitelka MŠ",
+      "group": "Učitelky MŠ",
+      "email": "",
+      "phone": "",
+      "note": ""
+    },
+    {
+      "name": "Monika Pěnkavová",
+      "role": "učitelka MŠ",
+      "group": "Učitelky MŠ",
+      "email": "",
+      "phone": "",
+      "note": ""
+    },
+    {
+      "name": "Simona Koudelová",
+      "role": "učitelka MŠ",
+      "group": "Učitelky MŠ",
+      "email": "",
+      "phone": "",
+      "note": ""
+    },
+    {
+      "name": "Jana Hrdličková",
+      "role": "učitelka MŠ",
+      "group": "Učitelky MŠ",
+      "email": "",
+      "phone": "",
+      "note": ""
+    }
+  ]
+}

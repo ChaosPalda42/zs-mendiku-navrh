@@ -1,0 +1,204 @@
+{
+  "items": [
+    {
+      "slug": "sportovni-den",
+      "title": "Sportovní den",
+      "section": "zs",
+      "date": "2026-09-12",
+      "count": 85,
+      "year": "2026/2027",
+      "description": "Žáci se utkali v různých sportovních disciplínách a ukázali týmového ducha.",
+      "protected": false
+    },
+    {
+      "slug": "poznavaci-zajezd",
+      "title": "Poznávací zájezd",
+      "section": "zs",
+      "date": "2026-09-08",
+      "count": 70,
+      "year": "2026/2027",
+      "description": "Třídy navštívily historické památky v okolí Prahy a poznaly místní historii.",
+      "protected": false
+    },
+    {
+      "slug": "posledni-zvoneni",
+      "title": "Poslední zvonění",
+      "section": "zs",
+      "date": "2026-09-03",
+      "count": 120,
+      "year": "2026/2027",
+      "description": "Zakončení školního roku slavnostním rozloučením a koncertem žáků.",
+      "protected": false
+    },
+    {
+      "slug": "vanoceni-jarmark",
+      "title": "Vánoční jarmark",
+      "section": "zs",
+      "date": "2025-12-10",
+      "count": 95,
+      "year": "2025/2026",
+      "description": "Rodiny si na dvoře školy užily řemeslné dílny a vánoční trhy.",
+      "protected": false
+    },
+    {
+      "slug": "projektovy-den",
+      "title": "Projektový den",
+      "section": "zs",
+      "date": "2026-04-05",
+      "count": 60,
+      "year": "2025/2026",
+      "description": "Žáci představili výsledky svých dlouhodobých projektů před rodiči.",
+      "protected": false
+    },
+    {
+      "slug": "umeni-a-kultura",
+      "title": "Umění a kultura",
+      "section": "zs",
+      "date": "2025-11-15",
+      "count": 78,
+      "year": "2025/2026",
+      "description": "Den věnovaný výtvarným dílům a hudebním vystoupením žáků.",
+      "protected": false
+    },
+    {
+      "slug": "zahradni-festival",
+      "title": "Zahradní festival",
+      "section": "zs",
+      "date": "2026-07-18",
+      "count": 88,
+      "year": "2025/2026",
+      "description": "Společná výsadba květin a zeleniny na školním pozemku.",
+      "protected": false
+    },
+    {
+      "slug": "den-baznickyho-rozvoje",
+      "title": "Den bazilického rozvoje",
+      "section": "zs",
+      "date": "2025-09-30",
+      "count": 55,
+      "year": "2025/2026",
+      "description": "Prezentace nových vzdělávacích metod a technologií.",
+      "protected": false
+    },
+    {
+      "slug": "kreativni-podnikani",
+      "title": "Kreativní podnikání",
+      "section": "zs",
+      "date": "2026-02-14",
+      "count": 68,
+      "year": "2025/2026",
+      "description": "Žáci se učili základy tvorby a prodeje vlastních výrobků.",
+      "protected": false
+    },
+    {
+      "slug": "inovativni-technologie",
+      "title": "Inovační technologie",
+      "section": "zs",
+      "date": "2026-01-22",
+      "count": 73,
+      "year": "2025/2026",
+      "description": "Ukázky robotiky a programování v praxi.",
+      "protected": false
+    },
+    {
+      "slug": "rodinna-piknikova-doba",
+      "title": "Rodinný piknik",
+      "section": "druzina",
+      "date": "2026-09-10",
+      "count": 45,
+      "year": "2026/2027",
+      "description": "Společné odpoledne s hrami a občerstvením pro celou rodinu.",
+      "protected": false
+    },
+    {
+      "slug": "prvni-den-ve-skole",
+      "title": "První den ve škole",
+      "section": "druzina",
+      "date": "2025-09-02",
+      "count": 38,
+      "year": "2025/2026",
+      "description": "Rodiče a děti se seznamují s učiteli a školním prostředím.",
+      "protected": false
+    },
+    {
+      "slug": "tema-vecek-knihy",
+      "title": "Večer knihy",
+      "section": "druzina",
+      "date": "2026-03-08",
+      "count": 30,
+      "year": "2025/2026",
+      "description": "Čtení pohádek a diskuse o literatuře pro rodiče i děti.",
+      "protected": false
+    },
+    {
+      "slug": "oslava-narozenin-ucitele",
+      "title": "Oslava narozenin učitelky Jany Novotné",
+      "section": "druzina",
+      "date": "2026-06-12",
+      "count": 28,
+      "year": "2025/2026",
+      "description": "Společná oslava s dortem a přáním od žáků i rodičů.",
+      "protected": false
+    },
+    {
+      "slug": "ms-svetove-dny",
+      "title": "Světové dny v MŠ",
+      "section": "ms",
+      "date": "2025-11-20",
+      "count": 52,
+      "year": "2025/2026",
+      "description": "Děti poznávají tradice a zvyky z různých koutů světa.",
+      "protected": false
+    },
+    {
+      "slug": "ms-prvni-pohybove-aktivity",
+      "title": "První pohybové aktivity",
+      "section": "ms",
+      "date": "2025-09-15",
+      "count": 60,
+      "year": "2025/2026",
+      "description": "Zábavné cvičení a hry pro rozvoj motoriky nejmenších.",
+      "protected": false
+    },
+    {
+      "slug": "ms-jarní-bazaar",
+      "title": "Jarní bazar",
+      "section": "ms",
+      "date": "2026-04-25",
+      "count": 48,
+      "year": "2025/2026",
+      "description": "Děti prodávají vlastní výtvory a učí se základy hospodaření.",
+      "protected": false
+    },
+    {
+      "slug": "ms-piknik-v-prirode",
+      "title": "Piknik v přírodě",
+      "section": "ms",
+      "date": "2026-06-05",
+      "count": 55,
+      "year": "2025/2026",
+      "description": "Společný výlet do parku s hrami a objevováním přírody.",
+      "protected": false
+    },
+    {
+      "slug": "trida-4a-projekt-historie",
+      "title": "Projekt Historie – 4.A",
+      "section": "trida",
+      "date": "2026-02-28",
+      "count": 22,
+      "year": "2025/2026",
+      "description": "Žáci třídy 4.A představili své výzkumy o středověké Praze.",
+      "protected": true
+    },
+    {
+      "slug": "trida-4a-podzimni-vystava",
+      "title": "Podzimní výstava – 4.A",
+      "section": "trida",
+      "date": "2026-10-12",
+      "count": 19,
+      "year": "2026/2027",
+      "description": "Výstava výtvarných prací a projektů žáků třídy 4.A.",
+      "protected": true
+    }
+  ]
+}
