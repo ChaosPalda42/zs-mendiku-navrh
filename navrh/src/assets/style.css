@@ -185,8 +185,8 @@ button { font: inherit; color: inherit; }
   transition: transform .25s var(--ease), box-shadow .25s var(--ease), background .25s;
   box-shadow: 0 6px 18px -8px color-mix(in srgb, var(--primary) 70%, transparent);
 }
-.btn:hover { transform: translateY(-2px); box-shadow: 0 12px 26px -10px color-mix(in srgb, var(--primary) 80%, transparent); }
-.btn:active { transform: translateY(0); }
+.btn:hover { transform: scale(1.03); box-shadow: 0 12px 26px -10px color-mix(in srgb, var(--primary) 80%, transparent); }
+.btn:active { transform: scale(.98); }
 .btn-accent { background: var(--accent); color: var(--accent-ink); box-shadow: 0 6px 18px -8px color-mix(in srgb, var(--accent) 80%, transparent); }
 .btn-ghost { background: transparent; border-color: var(--line-strong); color: var(--text); box-shadow: none; }
 .btn-ghost:hover { background: var(--surface); box-shadow: var(--shadow-sm); }
@@ -211,7 +211,7 @@ button { font: inherit; color: inherit; }
 
 /* ---------- karty ---------- */
 .card { background: var(--surface); border: 1px solid var(--line); border-radius: var(--r-lg); box-shadow: var(--shadow-sm); transition: transform .35s var(--ease), box-shadow .35s var(--ease), border-color .3s; }
-.card-hover:hover { transform: translateY(-4px); box-shadow: var(--shadow-md); border-color: transparent; }
+.card-hover:hover { transform: scale(1.015); box-shadow: var(--shadow-md); border-color: transparent; }
 .card-pad { padding: clamp(1.1rem, 2.5vw, 1.6rem); }
 .card h3 a { color: inherit; }
 .card h3 a::after { content: ''; position: absolute; inset: 0; }
@@ -258,7 +258,8 @@ button { font: inherit; color: inherit; }
 .mega-head { grid-column: 1 / -1; display: flex; justify-content: space-between; align-items: center; padding: 0 .7rem .6rem; margin-bottom: .3rem; border-bottom: 1px solid var(--line); font-size: .78rem; color: var(--text-mute); }
 .hdr-actions { display: flex; align-items: center; gap: .4rem; }
 .icon-btn { width: 42px; height: 42px; border-radius: 999px; border: 1.5px solid var(--line); background: var(--surface); display: grid; place-items: center; cursor: pointer; color: var(--text-soft); transition: all .2s; }
-.icon-btn:hover { border-color: var(--primary); color: var(--primary); }
+.icon-btn:hover { border-color: var(--primary); color: var(--primary); transform: scale(1.06); }
+.icon-btn { transition: all .2s, transform .2s var(--ease); }
 .icon-btn svg { width: 19px; height: 19px; }
 .burger { display: none; }
 .hdr-cta { display: inline-flex; }
@@ -324,7 +325,7 @@ button { font: inherit; color: inherit; }
 .quick { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 150px), 1fr)); gap: .8rem; }
 .quick a { display: flex; flex-direction: column; align-items: flex-start; gap: .7rem; padding: 1.1rem 1.1rem 1rem; background: var(--surface); border: 1px solid var(--line); border-radius: var(--r-lg); color: var(--text); font-weight: 600; font-size: .95rem; transition: transform .3s var(--ease), box-shadow .3s var(--ease), border-color .3s; text-decoration: none !important; position: relative; overflow: hidden; }
 .quick a::before { content: ''; position: absolute; inset: 0; background: linear-gradient(135deg, color-mix(in srgb, var(--primary) 8%, transparent), transparent); opacity: 0; transition: opacity .3s; }
-.quick a:hover { transform: translateY(-4px); box-shadow: var(--shadow-md); border-color: color-mix(in srgb, var(--primary) 40%, var(--line)); }
+.quick a:hover { transform: scale(1.03); box-shadow: var(--shadow-md); border-color: color-mix(in srgb, var(--primary) 40%, var(--line)); }
 .quick a:hover::before { opacity: 1; }
 .quick .ico { width: 44px; height: 44px; border-radius: 12px; background: var(--primary-soft); color: var(--primary-deep); display: grid; place-items: center; }
 .quick .ico svg { width: 22px; height: 22px; }
@@ -389,7 +390,7 @@ button { font: inherit; color: inherit; }
 .aside li small { display: block; color: var(--text-mute); font-size: .78rem; }
 .files { list-style: none; padding: 0; margin: 0; display: flex; flex-direction: column; gap: .5rem; }
 .file { display: flex; align-items: center; gap: .8rem; padding: .7rem .9rem; border: 1px solid var(--line); border-radius: var(--r-sm); background: var(--surface); color: var(--text); text-decoration: none !important; transition: border-color .2s, transform .2s; }
-.file:hover { border-color: var(--primary); transform: translateX(3px); }
+.file:hover { border-color: var(--primary); background: var(--primary-soft); }
 .file .ft { width: 40px; height: 40px; border-radius: 9px; display: grid; place-items: center; font-size: .68rem; font-weight: 800; letter-spacing: .04em; color: #fff; background: #64748b; flex: none; }
 .file .ft.pdf { background: #dc2626; } .file .ft.docx, .file .ft.doc { background: #2563eb; } .file .ft.xlsx { background: #16a34a; }
 .file b { display: block; font-size: .92rem; font-weight: 600; line-height: 1.3; }
@@ -429,7 +430,7 @@ button { font: inherit; color: inherit; }
 /* ---------- třídy ---------- */
 .class-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(min(100%, 150px), 1fr)); gap: .7rem; }
 .class-tile { display: flex; flex-direction: column; gap: .2rem; padding: .9rem 1rem; background: var(--surface); border: 1px solid var(--line); border-radius: var(--r); color: var(--text); text-decoration: none !important; transition: transform .3s var(--ease), box-shadow .3s, border-color .3s; }
-.class-tile:hover { transform: translateY(-3px); box-shadow: var(--shadow-md); border-color: var(--primary); }
+.class-tile:hover { transform: scale(1.03); box-shadow: var(--shadow-md); border-color: var(--primary); }
 .class-tile b { font-family: var(--font-display); font-size: 1.35rem; color: var(--primary); }
 .class-tile span { font-size: .8rem; color: var(--text-mute); line-height: 1.3; }
 .class-tile.big { padding: 1.3rem; gap: .5rem; }
@@ -681,7 +682,7 @@ button { font: inherit; color: inherit; }
 
 /* ---------- události: hover + detail ---------- */
 .event { cursor: pointer; position: relative; transition: transform .3s var(--ease), box-shadow .3s var(--ease), border-color .3s; }
-.event:hover { transform: translateY(-4px); box-shadow: var(--shadow-md); border-color: color-mix(in srgb, var(--primary) 45%, var(--line)); }
+.event:hover { transform: scale(1.02); box-shadow: var(--shadow-md); border-color: color-mix(in srgb, var(--primary) 45%, var(--line)); }
 .event .date { transition: transform .3s var(--ease); }
 .event:hover .date { transform: scale(1.06) rotate(-3deg); }
 .event h3 { transition: color .2s; }
@@ -700,13 +701,13 @@ button { font: inherit; color: inherit; }
 .ev-modal .facts { display: grid; grid-template-columns: auto 1fr; gap: .35rem .9rem; font-size: .92rem; margin: .8rem 0 1rem; }
 .ev-modal .facts i { font-style: normal; color: var(--text-mute); font-size: .78rem; text-transform: uppercase; letter-spacing: .05em; padding-top: .15rem; }
 .ev-modal p { color: var(--text-soft); }
-.event:hover { transform: translateY(-6px); box-shadow: var(--shadow-md); }
+.event:hover { transform: scale(1.025); box-shadow: var(--shadow-md); }
 .event:hover .date { box-shadow: 0 8px 18px -8px rgb(0 0 0 / .45); }
 .event:focus-visible { outline-offset: 2px; }
 
 /* ---------- jednotný hover pro „položkové“ karty (lidé, hodnoty, čísla, kroky, kroužky, upozornění, řádky aktualit) ---------- */
 .person, .value, .stat, .step, .club, .notice, .news-row, .card.kpi { cursor: default; transition: transform .25s var(--ease), box-shadow .25s var(--ease), border-color .25s; }
-.person:hover, .value:hover, .stat:hover, .step:hover, .club:hover, .notice:hover, .news-row:hover, .card.kpi:hover { transform: translateY(-5px); box-shadow: var(--shadow-md); border-color: color-mix(in srgb, var(--primary) 45%, var(--line)); }
+.person:hover, .value:hover, .stat:hover, .step:hover, .club:hover, .notice:hover, .news-row:hover, .card.kpi:hover { transform: scale(1.02); box-shadow: var(--shadow-md); border-color: color-mix(in srgb, var(--primary) 45%, var(--line)); }
 .notice:hover { border-left-color: var(--danger); } .notice.warn:hover { border-left-color: var(--warn); } .notice.info:hover { border-left-color: var(--primary); }
 .person .avatar, .teacher-card .avatar { transition: transform .3s var(--ease), box-shadow .3s var(--ease); }
 .person:hover .avatar, .teacher-card:hover .avatar { transform: scale(1.08) rotate(-4deg); box-shadow: 0 10px 22px -10px var(--primary); }
@@ -722,15 +723,20 @@ button { font: inherit; color: inherit; }
 .acc { transition: border-color .25s, box-shadow .25s, transform .25s var(--ease); }
 .acc:hover { border-color: color-mix(in srgb, var(--primary) 45%, var(--line)); box-shadow: var(--shadow-sm); }
 .acc[open] { border-color: color-mix(in srgb, var(--primary) 45%, var(--line)); }
-.card.link:hover, .album:hover { transform: translateY(-5px); box-shadow: var(--shadow-md); }
+.card.link:hover, .album:hover { transform: scale(1.02); box-shadow: var(--shadow-md); }
 .file:hover { box-shadow: var(--shadow-sm); }
 .table tbody tr { transition: background .2s, box-shadow .2s; }
 .table tbody tr:hover { box-shadow: inset 4px 0 0 var(--primary); }
 .today-box { transition: transform .3s var(--ease), box-shadow .3s var(--ease); }
-.today-box:hover { transform: translateY(-4px); box-shadow: var(--shadow-lg); }
+.today-box:hover { transform: scale(1.015); box-shadow: var(--shadow-lg); }
 .band { transition: transform .35s var(--ease), box-shadow .35s var(--ease); }
-.band:hover { transform: translateY(-4px); box-shadow: var(--shadow-lg); }
+.band:hover { transform: scale(1.01); box-shadow: var(--shadow-lg); }
 .partner { transition: background .2s, transform .25s var(--ease); }
-.partner:hover { background: rgb(255 255 255 / .1); transform: translateY(-2px); }
+.partner:hover { background: rgb(255 255 255 / .1); }
 @media (hover: none) { .person:hover, .value:hover, .stat:hover, .step:hover, .club:hover, .notice:hover, .news-row:hover, .event:hover, .band:hover, .today-box:hover { transform: none; } }
 
+
+/* hoverovaný prvek nad sousedy (při zvětšení) */
+.card:hover, .event:hover, .person:hover, .quick a:hover, .class-tile:hover, .news-row:hover, .band:hover { position: relative; z-index: 2; }
+.event { transform-origin: center; }
+.news-row:hover, .notice:hover, .card.kpi:hover { transform: scale(1.012); }
