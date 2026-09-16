@@ -675,3 +675,25 @@ button { font: inherit; color: inherit; }
 .person .avatar.sm { font-size: .85rem; }
 .grid-3, .grid-4 { grid-template-columns: repeat(auto-fill, minmax(min(100%, 260px), 1fr)); }
 .grid-4 { grid-template-columns: repeat(auto-fill, minmax(min(100%, 220px), 1fr)); }
+
+/* ---------- události: hover + detail ---------- */
+.event { cursor: pointer; position: relative; transition: transform .3s var(--ease), box-shadow .3s var(--ease), border-color .3s; }
+.event:hover { transform: translateY(-4px); box-shadow: var(--shadow-md); border-color: color-mix(in srgb, var(--primary) 45%, var(--line)); }
+.event .date { transition: transform .3s var(--ease); }
+.event:hover .date { transform: scale(1.06) rotate(-3deg); }
+.event h3 { transition: color .2s; }
+.event:hover h3 { color: var(--primary); }
+.event::after { content: 'Detail →'; position: absolute; right: .9rem; bottom: .7rem; font-size: .72rem; font-weight: 600; color: var(--primary); opacity: 0; transform: translateX(-4px); transition: opacity .25s, transform .25s var(--ease); }
+.event:hover::after { opacity: 1; transform: none; }
+.ev-modal { position: fixed; inset: 0; z-index: 180; background: rgb(5 8 26 / .5); backdrop-filter: blur(6px); display: none; place-items: center; padding: 1rem; }
+.ev-modal.is-open { display: grid; animation: fade .2s; }
+.ev-modal .box { width: min(100%, 520px); background: var(--surface); border-radius: var(--r-lg); box-shadow: var(--shadow-lg); padding: 1.6rem; animation: pop .3s var(--ease); position: relative; }
+.ev-modal .x { position: absolute; top: .8rem; right: .8rem; }
+.ev-modal .head { display: flex; gap: 1rem; align-items: flex-start; margin-bottom: 1rem; }
+.ev-modal .date { text-align: center; min-width: 64px; border-radius: var(--r-sm); padding: .5rem .3rem; line-height: 1.1; background: var(--text); color: var(--bg); }
+.ev-modal .date b { display: block; font-size: 1.7rem; font-family: var(--font-display); }
+.ev-modal .date span { font-size: .72rem; text-transform: uppercase; letter-spacing: .05em; opacity: .8; }
+.ev-modal h3 { margin: .1rem 0 .3rem; font-size: var(--step-1); }
+.ev-modal .facts { display: grid; grid-template-columns: auto 1fr; gap: .35rem .9rem; font-size: .92rem; margin: .8rem 0 1rem; }
+.ev-modal .facts i { font-style: normal; color: var(--text-mute); font-size: .78rem; text-transform: uppercase; letter-spacing: .05em; padding-top: .15rem; }
+.ev-modal p { color: var(--text-soft); }

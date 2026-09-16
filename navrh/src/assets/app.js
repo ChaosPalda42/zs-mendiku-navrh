@@ -128,7 +128,7 @@
         html += `<div class="cal-day ${other ? 'other' : ''} ${iso === today ? 'today' : ''}"><span class="n">${d.getDate()}</span>${evs.map((e) => `<span class="cal-ev ${e.type}" title="${e.title}" data-ev="${e.id}">${e.title}</span>`).join('')}</div>`;
       }
       grid.innerHTML = html;
-      $$('.cal-ev', grid).forEach((el) => el.addEventListener('click', () => { const e = EV.find((x) => x.id == el.dataset.ev); say(`${e.title} · ${e.time || 'celý den'} · ${e.place}`); }));
+      $$('.cal-ev', grid).forEach((el) => { el.setAttribute('data-event', JSON.stringify(EV.find((x) => x.id == el.dataset.ev))); });
       if (list) {
         const mm = EV.filter((e) => (filter === 'all' || e.type === filter) && e.start.slice(0, 7) === `${y}-${String(m + 1).padStart(2, '0')}`);
         list.innerHTML = mm.length ? mm.map((e) => window.renderEvent(e)).join('') : `<p class="mute">V tomto měsíci nejsou žádné události.</p>`;
@@ -138,6 +138,33 @@
     $('[data-cal-next]', cal).addEventListener('click', () => { cur = new Date(cur.getFullYear(), cur.getMonth() + 1, 1); draw(); });
     $$('[data-cal-filter]').forEach((b) => b.addEventListener('click', () => { $$('[data-cal-filter]').forEach((x) => x.classList.remove('is-active')); b.classList.add('is-active'); filter = b.dataset.calFilter; draw(); }));
     draw();
+  }
+
+  // ---- detail události (klik na kartu)
+  const evm = $('.ev-modal');
+  if (evm) {
+    const TYPES = { akce: 'Akce', schuzky: 'Třídní schůzky', prazdniny: 'Prázdniny', 'reditelske-volno': 'Ředitelské volno', vylet: 'Výlet / pobyt', zapis: 'Zápis', ms: 'Mateřská škola', druzina: 'Družina' };
+    const MS = ['led', 'úno', 'bře', 'dub', 'kvě', 'čvn', 'čvc', 'srp', 'zář', 'říj', 'lis', 'pro'];
+    const long = (iso) => { const [y, m, d] = iso.split('-').map(Number); return `${d}. ${m}. ${y}`; };
+    const openEv = (e) => {
+      const d = e.start.split('-');
+      $('.date b', evm).textContent = +d[2]; $('.date span', evm).textContent = MS[+d[1] - 1];
+      $('.head', evm).className = 'head ev-' + e.type;
+      $('[data-ev-type]', evm).textContent = TYPES[e.type] || e.type;
+      $('[data-ev-title]', evm).textContent = e.title;
+      $('[data-ev-when]', evm).textContent = (e.end && e.end !== e.start ? `${long(e.start)} – ${long(e.end)}` : long(e.start)) + (e.time ? `, ${e.time}` : ', celý den');
+      $('[data-ev-place]', evm).textContent = e.place || '—';
+      $('[data-ev-aud]', evm).textContent = e.audience || 'všichni';
+      $('[data-ev-desc]', evm).textContent = e.description || '';
+      evm.classList.add('is-open');
+    };
+    document.addEventListener('click', (ev) => {
+      const card = ev.target.closest('[data-event]');
+      if (card && !ev.target.closest('a')) { openEv(JSON.parse(card.dataset.event)); }
+      if (ev.target === evm || ev.target.closest('[data-ev-close]')) evm.classList.remove('is-open');
+    });
+    document.addEventListener('keydown', (ev) => { if (ev.key === 'Escape') evm.classList.remove('is-open'); if (ev.key === 'Enter' && document.activeElement?.dataset?.event) openEv(JSON.parse(document.activeElement.dataset.event)); });
+    $$('[data-demo]', evm).forEach((el) => el.addEventListener('click', (e) => { e.preventDefault(); say(el.dataset.demo); }));
   }
 
   // ---- admin ukázka: přepínání pohledů
