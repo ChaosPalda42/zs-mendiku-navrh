@@ -189,6 +189,8 @@ export function pageHead(title, lead = '', extra = '') {
   return `<div class="page-head wrap"><h1>${title}</h1>${lead ? `<p class="lead">${lead}</p>` : ''}${extra}</div>`;
 }
 
+// verze sestavení – mění se s každým buildem, aby prohlížeč nepoužil starý CSS/JS z cache
+export const BUILD = Date.now().toString(36);
 let SEARCH = [];
 export const addSearch = (entries) => SEARCH.push(...entries);
 export const getSearch = () => SEARCH;
@@ -203,8 +205,8 @@ export function layout({ title, description = '', section = 'zs', active = '', l
 <meta name="description" content="${esc(description)}">
 <meta name="robots" content="noindex, nofollow">
 <link rel="icon" href="assets/favicon.svg">
-<link rel="stylesheet" href="assets/fonts.css">
-<link rel="stylesheet" href="assets/style.css">
+<link rel="stylesheet" href="assets/fonts.css?v=${BUILD}">
+<link rel="stylesheet" href="assets/style.css?v=${BUILD}">
 <script>try{var t=localStorage.getItem('theme');if(t)document.documentElement.dataset.theme=t;}catch(e){}</script>
 </head>
 <body class="${bodyClass}">
@@ -215,7 +217,7 @@ ${body}
 ${noChrome ? '' : footer({ section })}
 <script>window.SEARCH_INDEX=${JSON.stringify(SEARCH)};</script>
 ${scripts}
-<script src="assets/app.js"></script>
+<script src="assets/app.js?v=${BUILD}"></script>
 </body>
 </html>`;
 }

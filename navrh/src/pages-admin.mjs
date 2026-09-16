@@ -1,6 +1,6 @@
-import { layout, icon, esc, fmtDate, fmtShort, items, slug, initials } from './lib.mjs';
+import { layout, icon, esc, fmtDate, fmtShort, items, slug, initials, BUILD } from './lib.mjs';
 
-const adminLayout = ({ title, body, section = 'zs' }) => layout({ title, section, noChrome: true, bodyClass: 'admin', body: `<link rel="stylesheet" href="assets/admin.css">${body}` });
+const adminLayout = ({ title, body, section = 'zs' }) => layout({ title, section, noChrome: true, bodyClass: 'admin', body: `<link rel="stylesheet" href="assets/admin.css?v=${BUILD}">${body}` });
 
 export function adminLoginPage() {
   const body = `
