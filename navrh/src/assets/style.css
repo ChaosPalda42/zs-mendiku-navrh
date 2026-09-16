@@ -697,3 +697,6 @@ button { font: inherit; color: inherit; }
 .ev-modal .facts { display: grid; grid-template-columns: auto 1fr; gap: .35rem .9rem; font-size: .92rem; margin: .8rem 0 1rem; }
 .ev-modal .facts i { font-style: normal; color: var(--text-mute); font-size: .78rem; text-transform: uppercase; letter-spacing: .05em; padding-top: .15rem; }
 .ev-modal p { color: var(--text-soft); }
+.event:hover { transform: translateY(-6px); box-shadow: var(--shadow-lg); }
+.event:hover .date { box-shadow: 0 8px 18px -8px rgb(0 0 0 / .45); }
+.event:focus-visible { outline-offset: 2px; }
