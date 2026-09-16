@@ -2,10 +2,9 @@ Dobrý den, paní ředitelko,
 
 posílám první návrh nového webu školy. Je to klikací ukázka – vypadá a chová se jako hotový web, ale zatím jen s vymyšleným obsahem, abychom se mohli bavit o vzhledu a rozložení, ne o textech.
 
-**Jak si ukázku spustit**
-1. Stáhněte přiložený soubor `ZS-Mendiku-ukazka.zip` a rozbalte ho (na Windows pravým tlačítkem → Extrahovat vše, na Macu dvojklikem).
-2. V rozbalené složce otevřete dvojklikem soubor **OTEVRIT-UKAZKU.html**.
-3. Otevře se v běžném prohlížeči (Chrome, Edge, Safari). Nepotřebujete internet ani nic instalovat. Klidně to otevřete i na mobilu – web je pro telefony připravený.
+**Jak si ukázku otevřít**
+Stačí kliknout na odkaz: **https://chaospalda42.github.io/zs-mendiku-navrh/**
+Otevře se v běžném prohlížeči na počítači i na mobilu, nic se neinstaluje. Odkaz můžete poslat dál komukoliv, koho chcete přizvat k hodnocení (zástupci, učitelé, školská rada). Ukázka není vyhledávači indexovaná – najde ji jen ten, kdo má odkaz.
 
 **Co je v ukázce**
 - **Web základní školy** (modrá barva) – úvodní stránka s tím nejdůležitějším pro rodiče (upozornění, rychlé odkazy, aktuality, nejbližší akce, dnešní jídelníček, třídy), dále Aktuality, Kalendář akcí, Třídní stránky, Jídelna s jídelníčkem, Družina, Kroužky, Zápis do 1. třídy, O škole, Lidé ve škole, Úřední deska, Projekty, Fotogalerie a Kontakt.
