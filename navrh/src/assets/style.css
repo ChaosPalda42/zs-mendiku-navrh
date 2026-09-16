@@ -700,3 +700,33 @@ button { font: inherit; color: inherit; }
 .event:hover { transform: translateY(-6px); box-shadow: var(--shadow-lg); }
 .event:hover .date { box-shadow: 0 8px 18px -8px rgb(0 0 0 / .45); }
 .event:focus-visible { outline-offset: 2px; }
+
+/* ---------- jednotný hover pro „položkové“ karty (lidé, hodnoty, čísla, kroky, kroužky, upozornění, řádky aktualit) ---------- */
+.person, .value, .stat, .step, .club, .notice, .news-row, .card.kpi { cursor: default; transition: transform .3s var(--ease), box-shadow .3s var(--ease), border-color .3s; }
+.person:hover, .value:hover, .stat:hover, .step:hover, .club:hover, .notice:hover, .news-row:hover, .card.kpi:hover { transform: translateY(-5px); box-shadow: var(--shadow-lg); border-color: color-mix(in srgb, var(--primary) 45%, var(--line)); }
+.notice:hover { border-left-color: var(--danger); } .notice.warn:hover { border-left-color: var(--warn); } .notice.info:hover { border-left-color: var(--primary); }
+.person .avatar, .teacher-card .avatar { transition: transform .3s var(--ease), box-shadow .3s var(--ease); }
+.person:hover .avatar, .teacher-card:hover .avatar { transform: scale(1.08) rotate(-4deg); box-shadow: 0 10px 22px -10px var(--primary); }
+.person b, .value h3, .club h3, .step h3 { transition: color .2s; }
+.person:hover b, .value:hover h3, .club:hover h3, .step:hover h3 { color: var(--primary); }
+.value:hover .ico, .quick a:hover .ico { background: var(--primary); color: var(--primary-ink); }
+.value .ico, .quick .ico { transition: background .25s, color .25s, transform .3s var(--ease); }
+.quick a:hover .ico { transform: scale(1.08) rotate(-4deg); }
+.stat:hover b { transform: scale(1.05); }
+.stat b { display: inline-block; transition: transform .3s var(--ease); }
+.class-tile:hover b { transform: translateX(3px); }
+.class-tile b { display: inline-block; transition: transform .3s var(--ease); }
+.acc { transition: border-color .25s, box-shadow .25s, transform .25s var(--ease); }
+.acc:hover { border-color: color-mix(in srgb, var(--primary) 45%, var(--line)); box-shadow: var(--shadow-sm); }
+.acc[open] { border-color: color-mix(in srgb, var(--primary) 45%, var(--line)); }
+.card.link:hover, .album:hover { transform: translateY(-5px); box-shadow: var(--shadow-lg); }
+.file:hover { box-shadow: var(--shadow-sm); }
+.table tbody tr { transition: background .2s, box-shadow .2s; }
+.table tbody tr:hover { box-shadow: inset 4px 0 0 var(--primary); }
+.today-box { transition: transform .3s var(--ease), box-shadow .3s var(--ease); }
+.today-box:hover { transform: translateY(-4px); box-shadow: var(--shadow-lg); }
+.band { transition: transform .35s var(--ease), box-shadow .35s var(--ease); }
+.band:hover { transform: translateY(-4px); box-shadow: var(--shadow-lg); }
+.partner { transition: background .2s, transform .25s var(--ease); }
+.partner:hover { background: rgb(255 255 255 / .1); transform: translateY(-2px); }
+@media (hover: none) { .person:hover, .value:hover, .stat:hover, .step:hover, .club:hover, .notice:hover, .news-row:hover, .event:hover, .band:hover, .today-box:hover { transform: none; } }
