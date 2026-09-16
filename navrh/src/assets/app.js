@@ -31,8 +31,11 @@
   });
 
   // ---- reveal při scrollu
-  const io = new IntersectionObserver((es) => es.forEach((e) => { if (e.isIntersecting) { e.target.classList.add('is-in'); io.unobserve(e.target); } }), { threshold: 0.12, rootMargin: '0px 0px -40px' });
+  // objeví se s předstihem (120 px pod okrajem), po doběhnutí animace se zruší zpoždění (hover reaguje hned)
+  const io = new IntersectionObserver((es) => es.forEach((e) => { if (e.isIntersecting) { e.target.classList.add('is-in'); io.unobserve(e.target); setTimeout(() => e.target.classList.add('is-done'), 900); } }), { threshold: 0, rootMargin: '0px 0px 120px' });
   $$('.reveal, .reveal-stagger').forEach((el) => io.observe(el));
+  // prvky už v okně při načtení: bez čekání na scroll
+  requestAnimationFrame(() => $$('.reveal, .reveal-stagger').forEach((el) => { if (el.getBoundingClientRect().top < innerHeight) { el.classList.add('is-in'); setTimeout(() => el.classList.add('is-done'), 900); } }));
 
   // ---- počítadla
   const cio = new IntersectionObserver((es) => es.forEach((e) => {

@@ -625,11 +625,15 @@ button { font: inherit; color: inherit; }
 .page-head-bg { background: linear-gradient(180deg, color-mix(in srgb, var(--primary) 7%, var(--bg)), var(--bg)); }
 
 /* ---------- animace při scrollu ---------- */
-.reveal { opacity: 0; transform: translateY(18px); transition: opacity .7s var(--ease), transform .7s var(--ease); }
+.reveal { opacity: 0; transform: translateY(14px); transition: opacity .45s var(--ease), transform .45s var(--ease); }
 .reveal.is-in { opacity: 1; transform: none; }
-.reveal-stagger > * { opacity: 0; transform: translateY(16px); transition: opacity .6s var(--ease), transform .6s var(--ease); }
+.reveal.is-done { transition-delay: 0s; }
+.reveal-stagger > * { opacity: 0; transform: translateY(12px); transition: opacity .4s var(--ease), transform .4s var(--ease); }
 .reveal-stagger.is-in > * { opacity: 1; transform: none; }
-.reveal-stagger.is-in > :nth-child(1) { transition-delay: .05s } .reveal-stagger.is-in > :nth-child(2) { transition-delay: .12s } .reveal-stagger.is-in > :nth-child(3) { transition-delay: .19s } .reveal-stagger.is-in > :nth-child(4) { transition-delay: .26s } .reveal-stagger.is-in > :nth-child(5) { transition-delay: .33s } .reveal-stagger.is-in > :nth-child(6) { transition-delay: .4s } .reveal-stagger.is-in > :nth-child(7) { transition-delay: .47s } .reveal-stagger.is-in > :nth-child(8) { transition-delay: .54s }
+.reveal-stagger.is-in > :nth-child(1) { transition-delay: .04s } .reveal-stagger.is-in > :nth-child(2) { transition-delay: .09s } .reveal-stagger.is-in > :nth-child(3) { transition-delay: .14s } .reveal-stagger.is-in > :nth-child(4) { transition-delay: .19s } .reveal-stagger.is-in > :nth-child(5) { transition-delay: .24s } .reveal-stagger.is-in > :nth-child(6) { transition-delay: .29s } .reveal-stagger.is-in > :nth-child(7) { transition-delay: .34s } .reveal-stagger.is-in > :nth-child(8) { transition-delay: .39s }
+/* po dokončení nástupu: žádné zpoždění, žádná animace opacity – hover reaguje hned */
+.reveal-stagger.is-done > :nth-child(n) { transition-delay: 0s; transition-property: transform, box-shadow, border-color, background-color, color; }
+.reveal.is-done { transition-property: transform, box-shadow, border-color, background-color, color; }
 @media (prefers-reduced-motion: reduce) {
   *, *::before, *::after { animation: none !important; transition: none !important; }
   .reveal, .reveal-stagger > * { opacity: 1; transform: none; }
@@ -697,13 +701,13 @@ button { font: inherit; color: inherit; }
 .ev-modal .facts { display: grid; grid-template-columns: auto 1fr; gap: .35rem .9rem; font-size: .92rem; margin: .8rem 0 1rem; }
 .ev-modal .facts i { font-style: normal; color: var(--text-mute); font-size: .78rem; text-transform: uppercase; letter-spacing: .05em; padding-top: .15rem; }
 .ev-modal p { color: var(--text-soft); }
-.event:hover { transform: translateY(-6px); box-shadow: var(--shadow-lg); }
+.event:hover { transform: translateY(-6px); box-shadow: var(--shadow-md); }
 .event:hover .date { box-shadow: 0 8px 18px -8px rgb(0 0 0 / .45); }
 .event:focus-visible { outline-offset: 2px; }
 
 /* ---------- jednotný hover pro „položkové“ karty (lidé, hodnoty, čísla, kroky, kroužky, upozornění, řádky aktualit) ---------- */
 .person, .value, .stat, .step, .club, .notice, .news-row, .card.kpi { cursor: default; transition: transform .3s var(--ease), box-shadow .3s var(--ease), border-color .3s; }
-.person:hover, .value:hover, .stat:hover, .step:hover, .club:hover, .notice:hover, .news-row:hover, .card.kpi:hover { transform: translateY(-5px); box-shadow: var(--shadow-lg); border-color: color-mix(in srgb, var(--primary) 45%, var(--line)); }
+.person:hover, .value:hover, .stat:hover, .step:hover, .club:hover, .notice:hover, .news-row:hover, .card.kpi:hover { transform: translateY(-5px); box-shadow: var(--shadow-md); border-color: color-mix(in srgb, var(--primary) 45%, var(--line)); }
 .notice:hover { border-left-color: var(--danger); } .notice.warn:hover { border-left-color: var(--warn); } .notice.info:hover { border-left-color: var(--primary); }
 .person .avatar, .teacher-card .avatar { transition: transform .3s var(--ease), box-shadow .3s var(--ease); }
 .person:hover .avatar, .teacher-card:hover .avatar { transform: scale(1.08) rotate(-4deg); box-shadow: 0 10px 22px -10px var(--primary); }
@@ -719,7 +723,7 @@ button { font: inherit; color: inherit; }
 .acc { transition: border-color .25s, box-shadow .25s, transform .25s var(--ease); }
 .acc:hover { border-color: color-mix(in srgb, var(--primary) 45%, var(--line)); box-shadow: var(--shadow-sm); }
 .acc[open] { border-color: color-mix(in srgb, var(--primary) 45%, var(--line)); }
-.card.link:hover, .album:hover { transform: translateY(-5px); box-shadow: var(--shadow-lg); }
+.card.link:hover, .album:hover { transform: translateY(-5px); box-shadow: var(--shadow-md); }
 .file:hover { box-shadow: var(--shadow-sm); }
 .table tbody tr { transition: background .2s, box-shadow .2s; }
 .table tbody tr:hover { box-shadow: inset 4px 0 0 var(--primary); }
@@ -730,3 +734,7 @@ button { font: inherit; color: inherit; }
 .partner { transition: background .2s, transform .25s var(--ease); }
 .partner:hover { background: rgb(255 255 255 / .1); transform: translateY(-2px); }
 @media (hover: none) { .person:hover, .value:hover, .stat:hover, .step:hover, .club:hover, .notice:hover, .news-row:hover, .event:hover, .band:hover, .today-box:hover { transform: none; } }
+
+/* stabilní vykreslování karet při hoveru (vlastní vrstva, bez překreslování okolí) */
+.card, .event, .person, .quick a, .class-tile { backface-visibility: hidden; transform: translateZ(0); }
+.card:hover, .event:hover, .person:hover, .quick a:hover, .class-tile:hover { will-change: transform; }
