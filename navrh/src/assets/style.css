@@ -234,7 +234,7 @@ button { font: inherit; color: inherit; }
 .lang { display: inline-flex; gap: .4rem; }
 .lang a.is-active { font-weight: 700; opacity: 1; text-decoration: underline; }
 
-.header { position: sticky; top: 0; z-index: 50; background: color-mix(in srgb, var(--surface) 86%, transparent); backdrop-filter: saturate(160%) blur(14px); border-bottom: 1px solid var(--line); transition: box-shadow .3s; }
+.header { position: sticky; top: 0; z-index: 50; background: color-mix(in srgb, var(--surface) 86%, transparent); backdrop-filter: blur(10px); -webkit-backdrop-filter: blur(10px); border-bottom: 1px solid var(--line); transition: box-shadow .3s; }
 .header.is-scrolled { box-shadow: var(--shadow-md); }
 .header .wrap { display: flex; align-items: center; gap: 1.5rem; min-height: 76px; }
 .brand { display: flex; align-items: center; gap: .75rem; color: var(--text); font-family: var(--font-display); font-weight: 800; letter-spacing: -.02em; line-height: 1.05; text-decoration: none !important; }
@@ -293,10 +293,10 @@ button { font: inherit; color: inherit; }
 /* ---------- hero ---------- */
 .hero { position: relative; overflow: hidden; padding-block: clamp(2.5rem, 7vw, 6rem) clamp(2rem, 5vw, 4rem); }
 .hero-bg { position: absolute; inset: 0; z-index: -1; overflow: hidden; background: radial-gradient(1200px 600px at 10% -10%, color-mix(in srgb, var(--hero-a) 18%, transparent), transparent 60%), radial-gradient(900px 500px at 100% 0%, color-mix(in srgb, var(--hero-c) 22%, transparent), transparent 60%); }
-.blob { position: absolute; border-radius: 50%; filter: blur(70px); opacity: .55; animation: float 14s ease-in-out infinite; }
-.blob-1 { width: 420px; height: 420px; left: -120px; top: -80px; background: var(--hero-a); }
-.blob-2 { width: 360px; height: 360px; right: -100px; top: 40px; background: var(--hero-c); animation-delay: -5s; }
-.blob-3 { width: 300px; height: 300px; left: 40%; bottom: -160px; background: var(--hero-b); animation-delay: -9s; }
+.blob { position: absolute; border-radius: 50%; opacity: .6; animation: float 16s ease-in-out infinite; will-change: transform; pointer-events: none; }
+.blob-1 { width: 640px; height: 640px; left: -230px; top: -190px; background: radial-gradient(circle, color-mix(in srgb, var(--hero-a) 55%, transparent) 0%, color-mix(in srgb, var(--hero-a) 25%, transparent) 35%, transparent 70%); }
+.blob-2 { width: 560px; height: 560px; right: -200px; top: -60px; background: radial-gradient(circle, color-mix(in srgb, var(--hero-c) 60%, transparent) 0%, color-mix(in srgb, var(--hero-c) 25%, transparent) 35%, transparent 70%); animation-delay: -5s; }
+.blob-3 { width: 480px; height: 480px; left: 38%; bottom: -260px; background: radial-gradient(circle, color-mix(in srgb, var(--hero-b) 50%, transparent) 0%, color-mix(in srgb, var(--hero-b) 22%, transparent) 35%, transparent 70%); animation-delay: -9s; }
 @keyframes float { 0%, 100% { transform: translate(0, 0) scale(1) } 50% { transform: translate(30px, -25px) scale(1.06) } }
 .hero-grid { display: grid; grid-template-columns: 1.05fr .95fr; gap: clamp(1.5rem, 4vw, 4rem); align-items: center; }
 .hero h1 { font-size: var(--step-5); font-weight: 800; letter-spacing: -.035em; margin-bottom: .5em; }
@@ -640,9 +640,8 @@ button { font: inherit; color: inherit; }
 }
 
 /* ---------- ukázka: štítek "návrh" ---------- */
-.demo-tag { position: fixed; left: 1rem; bottom: 1rem; z-index: 40; background: var(--surface); border: 1px solid var(--line); border-radius: 999px; padding: .45rem .9rem .45rem .6rem; font-size: .76rem; color: var(--text-mute); box-shadow: var(--shadow-md); display: flex; align-items: center; gap: .5rem; }
-.demo-tag i { width: 8px; height: 8px; border-radius: 50%; background: var(--accent); animation: pulse 2s infinite; }
-@keyframes pulse { 0%, 100% { box-shadow: 0 0 0 0 color-mix(in srgb, var(--accent) 60%, transparent) } 70% { box-shadow: 0 0 0 8px transparent } }
+.demo-tag { display: inline-flex; align-items: center; gap: .45rem; font-size: .76rem; color: #c9d2ea; opacity: .85; white-space: nowrap; }
+.demo-tag i { width: 7px; height: 7px; border-radius: 50%; background: var(--accent); }
 .toast { position: fixed; left: 50%; bottom: 1.5rem; transform: translate(-50%, 20px); background: var(--text); color: var(--bg); padding: .8rem 1.2rem; border-radius: 999px; font-size: .9rem; box-shadow: var(--shadow-lg); opacity: 0; transition: all .35s var(--ease); z-index: 300; pointer-events: none; }
 .toast.is-on { opacity: 1; transform: translate(-50%, 0); }
 
@@ -706,7 +705,7 @@ button { font: inherit; color: inherit; }
 .event:focus-visible { outline-offset: 2px; }
 
 /* ---------- jednotný hover pro „položkové“ karty (lidé, hodnoty, čísla, kroky, kroužky, upozornění, řádky aktualit) ---------- */
-.person, .value, .stat, .step, .club, .notice, .news-row, .card.kpi { cursor: default; transition: transform .3s var(--ease), box-shadow .3s var(--ease), border-color .3s; }
+.person, .value, .stat, .step, .club, .notice, .news-row, .card.kpi { cursor: default; transition: transform .25s var(--ease), box-shadow .25s var(--ease), border-color .25s; }
 .person:hover, .value:hover, .stat:hover, .step:hover, .club:hover, .notice:hover, .news-row:hover, .card.kpi:hover { transform: translateY(-5px); box-shadow: var(--shadow-md); border-color: color-mix(in srgb, var(--primary) 45%, var(--line)); }
 .notice:hover { border-left-color: var(--danger); } .notice.warn:hover { border-left-color: var(--warn); } .notice.info:hover { border-left-color: var(--primary); }
 .person .avatar, .teacher-card .avatar { transition: transform .3s var(--ease), box-shadow .3s var(--ease); }
@@ -735,6 +734,3 @@ button { font: inherit; color: inherit; }
 .partner:hover { background: rgb(255 255 255 / .1); transform: translateY(-2px); }
 @media (hover: none) { .person:hover, .value:hover, .stat:hover, .step:hover, .club:hover, .notice:hover, .news-row:hover, .event:hover, .band:hover, .today-box:hover { transform: none; } }
 
-/* stabilní vykreslování karet při hoveru (vlastní vrstva, bez překreslování okolí) */
-.card, .event, .person, .quick a, .class-tile { backface-visibility: hidden; transform: translateZ(0); }
-.card:hover, .event:hover, .person:hover, .quick a:hover, .class-tile:hover { will-change: transform; }

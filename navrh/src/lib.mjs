@@ -143,7 +143,7 @@ function header({ section, active, lang }) {
 <a class="skip" href="#obsah">Přeskočit na obsah</a>
 <div class="topbar"><div class="wrap">
   <div class="row"><span class="switch"><a href="index.html" class="${!isMs ? 'is-active' : ''}">${en ? 'Primary school' : 'Základní škola'}</a><a href="ms-index.html" class="${isMs ? 'is-active' : ''}">${en ? 'Kindergarten' : 'Mateřská škola'}</a></span></div>
-  <div class="row"><a class="hide-m" href="https://bakalari.example" data-demo="Odkaz do Bakalářů – v ukázce neaktivní.">${icon('external')} Bakaláři</a><a class="hide-m" href="kontakt.html">${icon('phone')} 2xx xxx xxx</a><span class="lang"><a href="${lang === 'en' ? 'index.html' : '#'}" class="${lang !== 'en' ? 'is-active' : ''}">CS</a><a href="en-index.html" class="${lang === 'en' ? 'is-active' : ''}">EN</a></span></div>
+  <div class="row"><span class="demo-tag hide-m"><i></i>Ukázka návrhu · vzorová data</span><a class="hide-m" href="https://bakalari.example" data-demo="Odkaz do Bakalářů – v ukázce neaktivní.">${icon('external')} Bakaláři</a><a class="hide-m" href="kontakt.html">${icon('phone')} 2xx xxx xxx</a><span class="lang"><a href="${lang === 'en' ? 'index.html' : '#'}" class="${lang !== 'en' ? 'is-active' : ''}">CS</a><a href="en-index.html" class="${lang === 'en' ? 'is-active' : ''}">EN</a></span></div>
 </div></div>
 <header class="header"><div class="wrap">
   <a class="brand" href="${isMs ? 'ms-index.html' : 'index.html'}"><span class="brand-mark">M</span><span>${isMs ? 'MŠ Mendíků' : 'ZŠ Mendíků'}<small>${en ? 'School with bridges to life' : isMs ? 'Cestička do školy' : 'Škola s mosty do života'}</small></span></a>
@@ -179,7 +179,7 @@ function footer({ section }) {
 <div class="search-modal" role="dialog" aria-label="Vyhledávání"><div class="search-box"><div class="in">${icon('search')}<input type="search" placeholder="Hledat aktuality, třídy, dokumenty, lidi…" aria-label="Hledat"><kbd>Esc</kbd></div><div class="search-res"></div></div></div>
 <div class="lightbox" role="dialog" aria-label="Fotografie"><button class="lb-close" type="button" aria-label="Zavřít">${icon('x')}</button><button class="lb-prev" type="button" aria-label="Předchozí">${icon('chevronL')}</button><img alt=""><button class="lb-next" type="button" aria-label="Další">${icon('chevronR')}</button><div class="cap"></div></div>
 <div class="ev-modal" role="dialog" aria-label="Detail události"><div class="box"><button class="icon-btn x" type="button" data-ev-close aria-label="Zavřít">${icon('x')}</button><div class="head"><div class="date"><b></b><span></span></div><div><span class="chip chip-mute" data-ev-type></span><h3 data-ev-title></h3></div></div><div class="facts"><i>Kdy</i><span data-ev-when></span><i>Kde</i><span data-ev-place></span><i>Pro koho</i><span data-ev-aud></span></div><p data-ev-desc></p><div class="row"><a class="btn btn-sm" href="#" data-demo="Přidání události do kalendáře v mobilu (iCal) – v ostré verzi.">${icon('ical')} Přidat do kalendáře</a><a class="btn btn-sm btn-ghost" href="kalendar.html">Celý kalendář</a></div></div></div>
-<div class="demo-tag"><i></i>Ukázka návrhu · vzorová data</div>`;
+`;
 }
 
 export function crumbs(list) {
